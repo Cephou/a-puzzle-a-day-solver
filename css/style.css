@@ -1,0 +1,88 @@
+html, body {
+	height: 100vh;
+	margin: 0px;
+	/* overflow: hidden; */
+	font-family: 'Arial';
+}
+
+button {
+	padding: 0px;
+}
+
+#app {
+	padding: 100px;
+}
+
+.sudoku {
+	width: 500px;
+	display: block;
+}
+
+.case {
+	border: 1px solid black;
+	width: 13%;
+	height: 50px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.case-filled {
+	background: grey;
+}
+
+.case-value {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+   	height: 50px;
+}
+
+.proposition {
+	padding: 0px!important;
+	font-size: 10px;
+	height: 16px!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cluster-1 {
+	background: rgba(0 0 0 / 0.08);
+}
+
+.cluster-2 {
+	background: rgba(0 0 0 / 0.0);
+}
+
+.cluster-3 {
+	background: rgba(0 0 0 / 0.08);
+}
+
+.cluster-4 {
+	background: rgba(0 0 0 / 0.0);
+}
+
+.cluster-5 {
+	background: rgba(0 0 0 / 0.08);
+}
+
+.cluster-6 {
+	background: rgba(0 0 0 / 0.0);
+}
+
+.cluster-7 {
+	background: rgba(0 0 0 / 0.08);
+}
+
+.cluster-8 {
+	background: rgba(0 0 0 / 0.0);
+}
+
+.cluster-9 {
+	background: rgba(0 0 0 / 0.08);
+}
