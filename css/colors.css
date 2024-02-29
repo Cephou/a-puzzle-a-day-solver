@@ -1,2685 +1,2313 @@
-.cerebellis-blue {
-	background-color: #1562af !important;
-}
-
-.cerebellis-blue-text {
-	color: #1562af !important;
-}
-
-.cerebellis-green {
-	background-color: #1fb573 !important;
-}
-
-.cerebellis-green-text {
-	color: #1fb573 !important;
-}
-
-/* line 370, ../sass/components/_color.scss */
-.materialize-red {
-	background-color: #e51c23 !important;
-}
-
-/* line 373, ../sass/components/_color.scss */
-.materialize-red-text {
-	color: #e51c23 !important;
-}
-
-/* line 378, ../sass/components/_color.scss */
-.materialize-red.lighten-5 {
-	background-color: #fdeaeb !important;
-}
-
-/* line 381, ../sass/components/_color.scss */
-.materialize-red-text.text-lighten-5 {
-	color: #fdeaeb !important;
-}
-
-/* line 378, ../sass/components/_color.scss */
-.materialize-red.lighten-4 {
-	background-color: #f8c1c3 !important;
-}
-
-/* line 381, ../sass/components/_color.scss */
-.materialize-red-text.text-lighten-4 {
-	color: #f8c1c3 !important;
-}
-
-/* line 378, ../sass/components/_color.scss */
-.materialize-red.lighten-3 {
-	background-color: #f3989b !important;
-}
-
-/* line 381, ../sass/components/_color.scss */
-.materialize-red-text.text-lighten-3 {
-	color: #f3989b !important;
-}
-
-/* line 378, ../sass/components/_color.scss */
-.materialize-red.lighten-2 {
-	background-color: #ee6e73 !important;
-}
-
-/* line 381, ../sass/components/_color.scss */
-.materialize-red-text.text-lighten-2 {
-	color: #ee6e73 !important;
-}
-
-/* line 378, ../sass/components/_color.scss */
-.materialize-red.lighten-1 {
-	background-color: #ea454b !important;
-}
-
-/* line 381, ../sass/components/_color.scss */
-.materialize-red-text.text-lighten-1 {
-	color: #ea454b !important;
-}
-
-/* line 378, ../sass/components/_color.scss */
-.materialize-red.darken-1 {
-	background-color: #d0181e !important;
-}
-
-/* line 381, ../sass/components/_color.scss */
-.materialize-red-text.text-darken-1 {
-	color: #d0181e !important;
-}
-
-/* line 378, ../sass/components/_color.scss */
-.materialize-red.darken-2 {
-	background-color: #b9151b !important;
-}
-
-/* line 381, ../sass/components/_color.scss */
-.materialize-red-text.text-darken-2 {
-	color: #b9151b !important;
-}
-
-/* line 378, ../sass/components/_color.scss */
-.materialize-red.darken-3 {
-	background-color: #a21318 !important;
-}
-
-/* line 381, ../sass/components/_color.scss */
-.materialize-red-text.text-darken-3 {
-	color: #a21318 !important;
-}
-
-/* line 378, ../sass/components/_color.scss */
-.materialize-red.darken-4 {
-	background-color: #8b1014 !important;
-}
-
-/* line 381, ../sass/components/_color.scss */
-.materialize-red-text.text-darken-4 {
-	color: #8b1014 !important;
-}
-
-/* line 370, ../sass/components/_color.scss */
-.red {
+body .red, body .hover\:red:hover, body .focus\:red:focus, body .active\:red:active {
 	background-color: #f44336 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.red-text {
+body .red-text, body .hover\:red-text:hover, body .focus\:red-text:focus, body .active\:red-text:active {
 	color: #f44336 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.lighten-5 {
+body .red-lighten-5, body .hover\:red-lighten-5:hover, body .focus\:red-lighten-5:focus, body .active\:red-lighten-5:active {
 	background-color: #ffebee !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-lighten-5 {
+body .red-text-lighten-5, body .hover\:red-text-lighten-5:hover, body .focus\:red-text-lighten-5:focus, body .active\:red-text-lighten-5:active {
 	color: #ffebee !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.lighten-4 {
+body .red-lighten-4, body .hover\:red-lighten-4:hover, body .focus\:red-lighten-4:focus, body .active\:red-lighten-4:active {
 	background-color: #ffcdd2 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-lighten-4 {
+body .red-text-lighten-4, body .hover\:red-text-lighten-4:hover, body .focus\:red-text-lighten-4:focus, body .active\:red-text-lighten-4:active {
 	color: #ffcdd2 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.lighten-3 {
+body .red-lighten-3, body .hover\:red-lighten-3:hover, body .focus\:red-lighten-3:focus, body .active\:red-lighten-3:active {
 	background-color: #ef9a9a !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-lighten-3 {
+body .red-text-lighten-3, body .hover\:red-text-lighten-3:hover, body .focus\:red-text-lighten-3:focus, body .active\:red-text-lighten-3:active {
 	color: #ef9a9a !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.lighten-2 {
+body .red-lighten-2, body .hover\:red-lighten-2:hover, body .focus\:red-lighten-2:focus, body .active\:red-lighten-2:active {
 	background-color: #e57373 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-lighten-2 {
+body .red-text-lighten-2, body .hover\:red-text-lighten-2:hover, body .focus\:red-text-lighten-2:focus, body .active\:red-text-lighten-2:active {
 	color: #e57373 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.lighten-1 {
+body .red-lighten-1, body .hover\:red-lighten-1:hover, body .focus\:red-lighten-1:focus, body .active\:red-lighten-1:active {
 	background-color: #ef5350 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-lighten-1 {
+body .red-text-lighten-1, body .hover\:red-text-lighten-1:hover, body .focus\:red-text-lighten-1:focus, body .active\:red-text-lighten-1:active {
 	color: #ef5350 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.darken-1 {
+body .red-darken-1, body .hover\:red-darken-1:hover, body .focus\:red-darken-1:focus, body .active\:red-darken-1:active {
 	background-color: #e53935 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-darken-1 {
+body .red-text-darken-1, body .hover\:red-text-darken-1:hover, body .focus\:red-text-darken-1:focus, body .active\:red-text-darken-1:active {
 	color: #e53935 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.darken-2 {
+body .red-darken-2, body .hover\:red-darken-2:hover, body .focus\:red-darken-2:focus, body .active\:red-darken-2:active {
 	background-color: #d32f2f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-darken-2 {
+body .red-text-darken-2, body .hover\:red-text-darken-2:hover, body .focus\:red-text-darken-2:focus, body .active\:red-text-darken-2:active {
 	color: #d32f2f !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.darken-3 {
+body .red-darken-3, body .hover\:red-darken-3:hover, body .focus\:red-darken-3:focus, body .active\:red-darken-3:active {
 	background-color: #c62828 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-darken-3 {
+body .red-text-darken-3, body .hover\:red-text-darken-3:hover, body .focus\:red-text-darken-3:focus, body .active\:red-text-darken-3:active {
 	color: #c62828 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.darken-4 {
+body .red-darken-4, body .hover\:red-darken-4:hover, body .focus\:red-darken-4:focus, body .active\:red-darken-4:active {
 	background-color: #b71c1c !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-darken-4 {
+body .red-text-darken-4, body .hover\:red-text-darken-4:hover, body .focus\:red-text-darken-4:focus, body .active\:red-text-darken-4:active {
 	color: #b71c1c !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.accent-1 {
+body .red-accent-1, body .hover\:red-accent-1:hover, body .focus\:red-accent-1:focus, body .active\:red-accent-1:active {
 	background-color: #ff8a80 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-accent-1 {
+body .red-text-accent-1, body .hover\:red-text-accent-1:hover, body .focus\:red-text-accent-1:focus, body .active\:red-text-accent-1:active {
 	color: #ff8a80 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.accent-2 {
+body .red-accent-2, body .hover\:red-accent-2:hover, body .focus\:red-accent-2:focus, body .active\:red-accent-2:active {
 	background-color: #ff5252 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-accent-2 {
+body .red-text-accent-2, body .hover\:red-text-accent-2:hover, body .focus\:red-text-accent-2:focus, body .active\:red-text-accent-2:active {
 	color: #ff5252 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.accent-3 {
+body .red-accent-3, body .hover\:red-accent-3:hover, body .focus\:red-accent-3:focus, body .active\:red-accent-3:active {
 	background-color: #ff1744 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-accent-3 {
+body .red-text-accent-3, body .hover\:red-text-accent-3:hover, body .focus\:red-text-accent-3:focus, body .active\:red-text-accent-3:active {
 	color: #ff1744 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.red.accent-4 {
+body .red-accent-4, body .hover\:red-accent-4:hover, body .focus\:red-accent-4:focus, body .active\:red-accent-4:active {
 	background-color: #d50000 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.red-text.text-accent-4 {
+body .red-text-accent-4, body .hover\:red-text-accent-4:hover, body .focus\:red-text-accent-4:focus, body .active\:red-text-accent-4:active {
 	color: #d50000 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.pink {
+body .pink, body .hover\:pink:hover, body .focus\:pink:focus, body .active\:pink:active {
 	background-color: #e91e63 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.pink-text {
+body .pink-text, body .hover\:pink-text:hover, body .focus\:pink-text:focus, body .active\:pink-text:active {
 	color: #e91e63 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.lighten-5 {
+body .pink-lighten-5, body .hover\:pink-lighten-5:hover, body .focus\:pink-lighten-5:focus, body .active\:pink-lighten-5:active {
 	background-color: #fce4ec !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-lighten-5 {
+body .pink-text-lighten-5, body .hover\:pink-text-lighten-5:hover, body .focus\:pink-text-lighten-5:focus, body .active\:pink-text-lighten-5:active {
 	color: #fce4ec !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.lighten-4 {
+body .pink-lighten-4, body .hover\:pink-lighten-4:hover, body .focus\:pink-lighten-4:focus, body .active\:pink-lighten-4:active {
 	background-color: #f8bbd0 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-lighten-4 {
+body .pink-text-lighten-4, body .hover\:pink-text-lighten-4:hover, body .focus\:pink-text-lighten-4:focus, body .active\:pink-text-lighten-4:active {
 	color: #f8bbd0 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.lighten-3 {
+body .pink-lighten-3, body .hover\:pink-lighten-3:hover, body .focus\:pink-lighten-3:focus, body .active\:pink-lighten-3:active {
 	background-color: #f48fb1 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-lighten-3 {
+body .pink-text-lighten-3, body .hover\:pink-text-lighten-3:hover, body .focus\:pink-text-lighten-3:focus, body .active\:pink-text-lighten-3:active {
 	color: #f48fb1 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.lighten-2 {
+body .pink-lighten-2, body .hover\:pink-lighten-2:hover, body .focus\:pink-lighten-2:focus, body .active\:pink-lighten-2:active {
 	background-color: #f06292 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-lighten-2 {
+body .pink-text-lighten-2, body .hover\:pink-text-lighten-2:hover, body .focus\:pink-text-lighten-2:focus, body .active\:pink-text-lighten-2:active {
 	color: #f06292 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.lighten-1 {
+body .pink-lighten-1, body .hover\:pink-lighten-1:hover, body .focus\:pink-lighten-1:focus, body .active\:pink-lighten-1:active {
 	background-color: #ec407a !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-lighten-1 {
+body .pink-text-lighten-1, body .hover\:pink-text-lighten-1:hover, body .focus\:pink-text-lighten-1:focus, body .active\:pink-text-lighten-1:active {
 	color: #ec407a !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.darken-1 {
+body .pink-darken-1, body .hover\:pink-darken-1:hover, body .focus\:pink-darken-1:focus, body .active\:pink-darken-1:active {
 	background-color: #d81b60 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-darken-1 {
+body .pink-text-darken-1, body .hover\:pink-text-darken-1:hover, body .focus\:pink-text-darken-1:focus, body .active\:pink-text-darken-1:active {
 	color: #d81b60 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.darken-2 {
+body .pink-darken-2, body .hover\:pink-darken-2:hover, body .focus\:pink-darken-2:focus, body .active\:pink-darken-2:active {
 	background-color: #c2185b !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-darken-2 {
+body .pink-text-darken-2, body .hover\:pink-text-darken-2:hover, body .focus\:pink-text-darken-2:focus, body .active\:pink-text-darken-2:active {
 	color: #c2185b !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.darken-3 {
+body .pink-darken-3, body .hover\:pink-darken-3:hover, body .focus\:pink-darken-3:focus, body .active\:pink-darken-3:active {
 	background-color: #ad1457 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-darken-3 {
+body .pink-text-darken-3, body .hover\:pink-text-darken-3:hover, body .focus\:pink-text-darken-3:focus, body .active\:pink-text-darken-3:active {
 	color: #ad1457 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.darken-4 {
+body .pink-darken-4, body .hover\:pink-darken-4:hover, body .focus\:pink-darken-4:focus, body .active\:pink-darken-4:active {
 	background-color: #880e4f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-darken-4 {
+body .pink-text-darken-4, body .hover\:pink-text-darken-4:hover, body .focus\:pink-text-darken-4:focus, body .active\:pink-text-darken-4:active {
 	color: #880e4f !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.accent-1 {
+body .pink-accent-1, body .hover\:pink-accent-1:hover, body .focus\:pink-accent-1:focus, body .active\:pink-accent-1:active {
 	background-color: #ff80ab !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-accent-1 {
+body .pink-text-accent-1, body .hover\:pink-text-accent-1:hover, body .focus\:pink-text-accent-1:focus, body .active\:pink-text-accent-1:active {
 	color: #ff80ab !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.accent-2 {
+body .pink-accent-2, body .hover\:pink-accent-2:hover, body .focus\:pink-accent-2:focus, body .active\:pink-accent-2:active {
 	background-color: #ff4081 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-accent-2 {
+body .pink-text-accent-2, body .hover\:pink-text-accent-2:hover, body .focus\:pink-text-accent-2:focus, body .active\:pink-text-accent-2:active {
 	color: #ff4081 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.accent-3 {
+body .pink-accent-3, body .hover\:pink-accent-3:hover, body .focus\:pink-accent-3:focus, body .active\:pink-accent-3:active {
 	background-color: #f50057 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-accent-3 {
+body .pink-text-accent-3, body .hover\:pink-text-accent-3:hover, body .focus\:pink-text-accent-3:focus, body .active\:pink-text-accent-3:active {
 	color: #f50057 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.pink.accent-4 {
+body .pink-accent-4, body .hover\:pink-accent-4:hover, body .focus\:pink-accent-4:focus, body .active\:pink-accent-4:active {
 	background-color: #c51162 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.pink-text.text-accent-4 {
+body .pink-text-accent-4, body .hover\:pink-text-accent-4:hover, body .focus\:pink-text-accent-4:focus, body .active\:pink-text-accent-4:active {
 	color: #c51162 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.purple {
+body .purple, body .hover\:purple:hover, body .focus\:purple:focus, body .active\:purple:active {
 	background-color: #9c27b0 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.purple-text {
+body .purple-text, body .hover\:purple-text:hover, body .focus\:purple-text:focus, body .active\:purple-text:active {
 	color: #9c27b0 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.lighten-5 {
+body .purple-lighten-5, body .hover\:purple-lighten-5:hover, body .focus\:purple-lighten-5:focus, body .active\:purple-lighten-5:active {
 	background-color: #f3e5f5 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-lighten-5 {
+body .purple-text-lighten-5, body .hover\:purple-text-lighten-5:hover, body .focus\:purple-text-lighten-5:focus, body .active\:purple-text-lighten-5:active {
 	color: #f3e5f5 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.lighten-4 {
+body .purple-lighten-4, body .hover\:purple-lighten-4:hover, body .focus\:purple-lighten-4:focus, body .active\:purple-lighten-4:active {
 	background-color: #e1bee7 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-lighten-4 {
+body .purple-text-lighten-4, body .hover\:purple-text-lighten-4:hover, body .focus\:purple-text-lighten-4:focus, body .active\:purple-text-lighten-4:active {
 	color: #e1bee7 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.lighten-3 {
+body .purple-lighten-3, body .hover\:purple-lighten-3:hover, body .focus\:purple-lighten-3:focus, body .active\:purple-lighten-3:active {
 	background-color: #ce93d8 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-lighten-3 {
+body .purple-text-lighten-3, body .hover\:purple-text-lighten-3:hover, body .focus\:purple-text-lighten-3:focus, body .active\:purple-text-lighten-3:active {
 	color: #ce93d8 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.lighten-2 {
+body .purple-lighten-2, body .hover\:purple-lighten-2:hover, body .focus\:purple-lighten-2:focus, body .active\:purple-lighten-2:active {
 	background-color: #ba68c8 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-lighten-2 {
+body .purple-text-lighten-2, body .hover\:purple-text-lighten-2:hover, body .focus\:purple-text-lighten-2:focus, body .active\:purple-text-lighten-2:active {
 	color: #ba68c8 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.lighten-1 {
+body .purple-lighten-1, body .hover\:purple-lighten-1:hover, body .focus\:purple-lighten-1:focus, body .active\:purple-lighten-1:active {
 	background-color: #ab47bc !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-lighten-1 {
+body .purple-text-lighten-1, body .hover\:purple-text-lighten-1:hover, body .focus\:purple-text-lighten-1:focus, body .active\:purple-text-lighten-1:active {
 	color: #ab47bc !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.darken-1 {
+body .purple-darken-1, body .hover\:purple-darken-1:hover, body .focus\:purple-darken-1:focus, body .active\:purple-darken-1:active {
 	background-color: #8e24aa !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-darken-1 {
+body .purple-text-darken-1, body .hover\:purple-text-darken-1:hover, body .focus\:purple-text-darken-1:focus, body .active\:purple-text-darken-1:active {
 	color: #8e24aa !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.darken-2 {
+body .purple-darken-2, body .hover\:purple-darken-2:hover, body .focus\:purple-darken-2:focus, body .active\:purple-darken-2:active {
 	background-color: #7b1fa2 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-darken-2 {
+body .purple-text-darken-2, body .hover\:purple-text-darken-2:hover, body .focus\:purple-text-darken-2:focus, body .active\:purple-text-darken-2:active {
 	color: #7b1fa2 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.darken-3 {
+body .purple-darken-3, body .hover\:purple-darken-3:hover, body .focus\:purple-darken-3:focus, body .active\:purple-darken-3:active {
 	background-color: #6a1b9a !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-darken-3 {
+body .purple-text-darken-3, body .hover\:purple-text-darken-3:hover, body .focus\:purple-text-darken-3:focus, body .active\:purple-text-darken-3:active {
 	color: #6a1b9a !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.darken-4 {
+body .purple-darken-4, body .hover\:purple-darken-4:hover, body .focus\:purple-darken-4:focus, body .active\:purple-darken-4:active {
 	background-color: #4a148c !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-darken-4 {
+body .purple-text-darken-4, body .hover\:purple-text-darken-4:hover, body .focus\:purple-text-darken-4:focus, body .active\:purple-text-darken-4:active {
 	color: #4a148c !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.accent-1 {
+body .purple-accent-1, body .hover\:purple-accent-1:hover, body .focus\:purple-accent-1:focus, body .active\:purple-accent-1:active {
 	background-color: #ea80fc !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-accent-1 {
+body .purple-text-accent-1, body .hover\:purple-text-accent-1:hover, body .focus\:purple-text-accent-1:focus, body .active\:purple-text-accent-1:active {
 	color: #ea80fc !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.accent-2 {
+body .purple-accent-2, body .hover\:purple-accent-2:hover, body .focus\:purple-accent-2:focus, body .active\:purple-accent-2:active {
 	background-color: #e040fb !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-accent-2 {
+body .purple-text-accent-2, body .hover\:purple-text-accent-2:hover, body .focus\:purple-text-accent-2:focus, body .active\:purple-text-accent-2:active {
 	color: #e040fb !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.accent-3 {
+body .purple-accent-3, body .hover\:purple-accent-3:hover, body .focus\:purple-accent-3:focus, body .active\:purple-accent-3:active {
 	background-color: #d500f9 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-accent-3 {
+body .purple-text-accent-3, body .hover\:purple-text-accent-3:hover, body .focus\:purple-text-accent-3:focus, body .active\:purple-text-accent-3:active {
 	color: #d500f9 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.purple.accent-4 {
-	background-color: #aa00ff !important;
+body .purple-accent-4, body .hover\:purple-accent-4:hover, body .focus\:purple-accent-4:focus, body .active\:purple-accent-4:active {
+	background-color: #a0f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.purple-text.text-accent-4 {
-	color: #aa00ff !important;
+body .purple-text-accent-4, body .hover\:purple-text-accent-4:hover, body .focus\:purple-text-accent-4:focus, body .active\:purple-text-accent-4:active {
+	color: #a0f !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.deep-purple {
+body .deep-purple, body .hover\:deep-purple:hover, body .focus\:deep-purple:focus, body .active\:deep-purple:active {
 	background-color: #673ab7 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.deep-purple-text {
+body .deep-purple-text, body .hover\:deep-purple-text:hover, body .focus\:deep-purple-text:focus, body .active\:deep-purple-text:active {
 	color: #673ab7 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.lighten-5 {
+body .deep-purple-lighten-5, body .hover\:deep-purple-lighten-5:hover, body .focus\:deep-purple-lighten-5:focus, body .active\:deep-purple-lighten-5:active {
 	background-color: #ede7f6 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-lighten-5 {
+body .deep-purple-text-lighten-5, body .hover\:deep-purple-text-lighten-5:hover, body .focus\:deep-purple-text-lighten-5:focus, body .active\:deep-purple-text-lighten-5:active {
 	color: #ede7f6 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.lighten-4 {
+body .deep-purple-lighten-4, body .hover\:deep-purple-lighten-4:hover, body .focus\:deep-purple-lighten-4:focus, body .active\:deep-purple-lighten-4:active {
 	background-color: #d1c4e9 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-lighten-4 {
+body .deep-purple-text-lighten-4, body .hover\:deep-purple-text-lighten-4:hover, body .focus\:deep-purple-text-lighten-4:focus, body .active\:deep-purple-text-lighten-4:active {
 	color: #d1c4e9 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.lighten-3 {
+body .deep-purple-lighten-3, body .hover\:deep-purple-lighten-3:hover, body .focus\:deep-purple-lighten-3:focus, body .active\:deep-purple-lighten-3:active {
 	background-color: #b39ddb !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-lighten-3 {
+body .deep-purple-text-lighten-3, body .hover\:deep-purple-text-lighten-3:hover, body .focus\:deep-purple-text-lighten-3:focus, body .active\:deep-purple-text-lighten-3:active {
 	color: #b39ddb !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.lighten-2 {
+body .deep-purple-lighten-2, body .hover\:deep-purple-lighten-2:hover, body .focus\:deep-purple-lighten-2:focus, body .active\:deep-purple-lighten-2:active {
 	background-color: #9575cd !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-lighten-2 {
+body .deep-purple-text-lighten-2, body .hover\:deep-purple-text-lighten-2:hover, body .focus\:deep-purple-text-lighten-2:focus, body .active\:deep-purple-text-lighten-2:active {
 	color: #9575cd !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.lighten-1 {
+body .deep-purple-lighten-1, body .hover\:deep-purple-lighten-1:hover, body .focus\:deep-purple-lighten-1:focus, body .active\:deep-purple-lighten-1:active {
 	background-color: #7e57c2 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-lighten-1 {
+body .deep-purple-text-lighten-1, body .hover\:deep-purple-text-lighten-1:hover, body .focus\:deep-purple-text-lighten-1:focus, body .active\:deep-purple-text-lighten-1:active {
 	color: #7e57c2 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.darken-1 {
+body .deep-purple-darken-1, body .hover\:deep-purple-darken-1:hover, body .focus\:deep-purple-darken-1:focus, body .active\:deep-purple-darken-1:active {
 	background-color: #5e35b1 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-darken-1 {
+body .deep-purple-text-darken-1, body .hover\:deep-purple-text-darken-1:hover, body .focus\:deep-purple-text-darken-1:focus, body .active\:deep-purple-text-darken-1:active {
 	color: #5e35b1 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.darken-2 {
+body .deep-purple-darken-2, body .hover\:deep-purple-darken-2:hover, body .focus\:deep-purple-darken-2:focus, body .active\:deep-purple-darken-2:active {
 	background-color: #512da8 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-darken-2 {
+body .deep-purple-text-darken-2, body .hover\:deep-purple-text-darken-2:hover, body .focus\:deep-purple-text-darken-2:focus, body .active\:deep-purple-text-darken-2:active {
 	color: #512da8 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.darken-3 {
+body .deep-purple-darken-3, body .hover\:deep-purple-darken-3:hover, body .focus\:deep-purple-darken-3:focus, body .active\:deep-purple-darken-3:active {
 	background-color: #4527a0 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-darken-3 {
+body .deep-purple-text-darken-3, body .hover\:deep-purple-text-darken-3:hover, body .focus\:deep-purple-text-darken-3:focus, body .active\:deep-purple-text-darken-3:active {
 	color: #4527a0 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.darken-4 {
+body .deep-purple-darken-4, body .hover\:deep-purple-darken-4:hover, body .focus\:deep-purple-darken-4:focus, body .active\:deep-purple-darken-4:active {
 	background-color: #311b92 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-darken-4 {
+body .deep-purple-text-darken-4, body .hover\:deep-purple-text-darken-4:hover, body .focus\:deep-purple-text-darken-4:focus, body .active\:deep-purple-text-darken-4:active {
 	color: #311b92 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.accent-1 {
+body .deep-purple-accent-1, body .hover\:deep-purple-accent-1:hover, body .focus\:deep-purple-accent-1:focus, body .active\:deep-purple-accent-1:active {
 	background-color: #b388ff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-accent-1 {
+body .deep-purple-text-accent-1, body .hover\:deep-purple-text-accent-1:hover, body .focus\:deep-purple-text-accent-1:focus, body .active\:deep-purple-text-accent-1:active {
 	color: #b388ff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.accent-2 {
+body .deep-purple-accent-2, body .hover\:deep-purple-accent-2:hover, body .focus\:deep-purple-accent-2:focus, body .active\:deep-purple-accent-2:active {
 	background-color: #7c4dff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-accent-2 {
+body .deep-purple-text-accent-2, body .hover\:deep-purple-text-accent-2:hover, body .focus\:deep-purple-text-accent-2:focus, body .active\:deep-purple-text-accent-2:active {
 	color: #7c4dff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.accent-3 {
+body .deep-purple-accent-3, body .hover\:deep-purple-accent-3:hover, body .focus\:deep-purple-accent-3:focus, body .active\:deep-purple-accent-3:active {
 	background-color: #651fff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-accent-3 {
+body .deep-purple-text-accent-3, body .hover\:deep-purple-text-accent-3:hover, body .focus\:deep-purple-text-accent-3:focus, body .active\:deep-purple-text-accent-3:active {
 	color: #651fff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-purple.accent-4 {
+body .deep-purple-accent-4, body .hover\:deep-purple-accent-4:hover, body .focus\:deep-purple-accent-4:focus, body .active\:deep-purple-accent-4:active {
 	background-color: #6200ea !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-purple-text.text-accent-4 {
+body .deep-purple-text-accent-4, body .hover\:deep-purple-text-accent-4:hover, body .focus\:deep-purple-text-accent-4:focus, body .active\:deep-purple-text-accent-4:active {
 	color: #6200ea !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.indigo {
+body .indigo, body .hover\:indigo:hover, body .focus\:indigo:focus, body .active\:indigo:active {
 	background-color: #3f51b5 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.indigo-text {
+body .indigo-text, body .hover\:indigo-text:hover, body .focus\:indigo-text:focus, body .active\:indigo-text:active {
 	color: #3f51b5 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.lighten-5 {
+body .indigo-lighten-5, body .hover\:indigo-lighten-5:hover, body .focus\:indigo-lighten-5:focus, body .active\:indigo-lighten-5:active {
 	background-color: #e8eaf6 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-lighten-5 {
+body .indigo-text-lighten-5, body .hover\:indigo-text-lighten-5:hover, body .focus\:indigo-text-lighten-5:focus, body .active\:indigo-text-lighten-5:active {
 	color: #e8eaf6 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.lighten-4 {
+body .indigo-lighten-4, body .hover\:indigo-lighten-4:hover, body .focus\:indigo-lighten-4:focus, body .active\:indigo-lighten-4:active {
 	background-color: #c5cae9 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-lighten-4 {
+body .indigo-text-lighten-4, body .hover\:indigo-text-lighten-4:hover, body .focus\:indigo-text-lighten-4:focus, body .active\:indigo-text-lighten-4:active {
 	color: #c5cae9 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.lighten-3 {
+body .indigo-lighten-3, body .hover\:indigo-lighten-3:hover, body .focus\:indigo-lighten-3:focus, body .active\:indigo-lighten-3:active {
 	background-color: #9fa8da !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-lighten-3 {
+body .indigo-text-lighten-3, body .hover\:indigo-text-lighten-3:hover, body .focus\:indigo-text-lighten-3:focus, body .active\:indigo-text-lighten-3:active {
 	color: #9fa8da !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.lighten-2 {
+body .indigo-lighten-2, body .hover\:indigo-lighten-2:hover, body .focus\:indigo-lighten-2:focus, body .active\:indigo-lighten-2:active {
 	background-color: #7986cb !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-lighten-2 {
+body .indigo-text-lighten-2, body .hover\:indigo-text-lighten-2:hover, body .focus\:indigo-text-lighten-2:focus, body .active\:indigo-text-lighten-2:active {
 	color: #7986cb !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.lighten-1 {
+body .indigo-lighten-1, body .hover\:indigo-lighten-1:hover, body .focus\:indigo-lighten-1:focus, body .active\:indigo-lighten-1:active {
 	background-color: #5c6bc0 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-lighten-1 {
+body .indigo-text-lighten-1, body .hover\:indigo-text-lighten-1:hover, body .focus\:indigo-text-lighten-1:focus, body .active\:indigo-text-lighten-1:active {
 	color: #5c6bc0 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.darken-1 {
+body .indigo-darken-1, body .hover\:indigo-darken-1:hover, body .focus\:indigo-darken-1:focus, body .active\:indigo-darken-1:active {
 	background-color: #3949ab !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-darken-1 {
+body .indigo-text-darken-1, body .hover\:indigo-text-darken-1:hover, body .focus\:indigo-text-darken-1:focus, body .active\:indigo-text-darken-1:active {
 	color: #3949ab !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.darken-2 {
+body .indigo-darken-2, body .hover\:indigo-darken-2:hover, body .focus\:indigo-darken-2:focus, body .active\:indigo-darken-2:active {
 	background-color: #303f9f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-darken-2 {
+body .indigo-text-darken-2, body .hover\:indigo-text-darken-2:hover, body .focus\:indigo-text-darken-2:focus, body .active\:indigo-text-darken-2:active {
 	color: #303f9f !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.darken-3 {
+body .indigo-darken-3, body .hover\:indigo-darken-3:hover, body .focus\:indigo-darken-3:focus, body .active\:indigo-darken-3:active {
 	background-color: #283593 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-darken-3 {
+body .indigo-text-darken-3, body .hover\:indigo-text-darken-3:hover, body .focus\:indigo-text-darken-3:focus, body .active\:indigo-text-darken-3:active {
 	color: #283593 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.darken-4 {
+body .indigo-darken-4, body .hover\:indigo-darken-4:hover, body .focus\:indigo-darken-4:focus, body .active\:indigo-darken-4:active {
 	background-color: #1a237e !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-darken-4 {
+body .indigo-text-darken-4, body .hover\:indigo-text-darken-4:hover, body .focus\:indigo-text-darken-4:focus, body .active\:indigo-text-darken-4:active {
 	color: #1a237e !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.accent-1 {
+body .indigo-accent-1, body .hover\:indigo-accent-1:hover, body .focus\:indigo-accent-1:focus, body .active\:indigo-accent-1:active {
 	background-color: #8c9eff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-accent-1 {
+body .indigo-text-accent-1, body .hover\:indigo-text-accent-1:hover, body .focus\:indigo-text-accent-1:focus, body .active\:indigo-text-accent-1:active {
 	color: #8c9eff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.accent-2 {
+body .indigo-accent-2, body .hover\:indigo-accent-2:hover, body .focus\:indigo-accent-2:focus, body .active\:indigo-accent-2:active {
 	background-color: #536dfe !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-accent-2 {
+body .indigo-text-accent-2, body .hover\:indigo-text-accent-2:hover, body .focus\:indigo-text-accent-2:focus, body .active\:indigo-text-accent-2:active {
 	color: #536dfe !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.accent-3 {
+body .indigo-accent-3, body .hover\:indigo-accent-3:hover, body .focus\:indigo-accent-3:focus, body .active\:indigo-accent-3:active {
 	background-color: #3d5afe !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-accent-3 {
+body .indigo-text-accent-3, body .hover\:indigo-text-accent-3:hover, body .focus\:indigo-text-accent-3:focus, body .active\:indigo-text-accent-3:active {
 	color: #3d5afe !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.indigo.accent-4 {
+body .indigo-accent-4, body .hover\:indigo-accent-4:hover, body .focus\:indigo-accent-4:focus, body .active\:indigo-accent-4:active {
 	background-color: #304ffe !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.indigo-text.text-accent-4 {
+body .indigo-text-accent-4, body .hover\:indigo-text-accent-4:hover, body .focus\:indigo-text-accent-4:focus, body .active\:indigo-text-accent-4:active {
 	color: #304ffe !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.blue {
+body .blue, body .hover\:blue:hover, body .focus\:blue:focus, body .active\:blue:active {
 	background-color: #2196f3 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.blue-text {
+body .blue-text, body .hover\:blue-text:hover, body .focus\:blue-text:focus, body .active\:blue-text:active {
 	color: #2196f3 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.lighten-5 {
+body .blue-lighten-5, body .hover\:blue-lighten-5:hover, body .focus\:blue-lighten-5:focus, body .active\:blue-lighten-5:active {
 	background-color: #e3f2fd !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-lighten-5 {
+body .blue-text-lighten-5, body .hover\:blue-text-lighten-5:hover, body .focus\:blue-text-lighten-5:focus, body .active\:blue-text-lighten-5:active {
 	color: #e3f2fd !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.lighten-4 {
+body .blue-lighten-4, body .hover\:blue-lighten-4:hover, body .focus\:blue-lighten-4:focus, body .active\:blue-lighten-4:active {
 	background-color: #bbdefb !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-lighten-4 {
+body .blue-text-lighten-4, body .hover\:blue-text-lighten-4:hover, body .focus\:blue-text-lighten-4:focus, body .active\:blue-text-lighten-4:active {
 	color: #bbdefb !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.lighten-3 {
+body .blue-lighten-3, body .hover\:blue-lighten-3:hover, body .focus\:blue-lighten-3:focus, body .active\:blue-lighten-3:active {
 	background-color: #90caf9 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-lighten-3 {
+body .blue-text-lighten-3, body .hover\:blue-text-lighten-3:hover, body .focus\:blue-text-lighten-3:focus, body .active\:blue-text-lighten-3:active {
 	color: #90caf9 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.lighten-2 {
+body .blue-lighten-2, body .hover\:blue-lighten-2:hover, body .focus\:blue-lighten-2:focus, body .active\:blue-lighten-2:active {
 	background-color: #64b5f6 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-lighten-2 {
+body .blue-text-lighten-2, body .hover\:blue-text-lighten-2:hover, body .focus\:blue-text-lighten-2:focus, body .active\:blue-text-lighten-2:active {
 	color: #64b5f6 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.lighten-1 {
+body .blue-lighten-1, body .hover\:blue-lighten-1:hover, body .focus\:blue-lighten-1:focus, body .active\:blue-lighten-1:active {
 	background-color: #42a5f5 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-lighten-1 {
+body .blue-text-lighten-1, body .hover\:blue-text-lighten-1:hover, body .focus\:blue-text-lighten-1:focus, body .active\:blue-text-lighten-1:active {
 	color: #42a5f5 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.darken-1 {
+body .blue-darken-1, body .hover\:blue-darken-1:hover, body .focus\:blue-darken-1:focus, body .active\:blue-darken-1:active {
 	background-color: #1e88e5 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-darken-1 {
+body .blue-text-darken-1, body .hover\:blue-text-darken-1:hover, body .focus\:blue-text-darken-1:focus, body .active\:blue-text-darken-1:active {
 	color: #1e88e5 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.darken-2 {
+body .blue-darken-2, body .hover\:blue-darken-2:hover, body .focus\:blue-darken-2:focus, body .active\:blue-darken-2:active {
 	background-color: #1976d2 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-darken-2 {
+body .blue-text-darken-2, body .hover\:blue-text-darken-2:hover, body .focus\:blue-text-darken-2:focus, body .active\:blue-text-darken-2:active {
 	color: #1976d2 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.darken-3 {
+body .blue-darken-3, body .hover\:blue-darken-3:hover, body .focus\:blue-darken-3:focus, body .active\:blue-darken-3:active {
 	background-color: #1565c0 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-darken-3 {
+body .blue-text-darken-3, body .hover\:blue-text-darken-3:hover, body .focus\:blue-text-darken-3:focus, body .active\:blue-text-darken-3:active {
 	color: #1565c0 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.darken-4 {
+body .blue-darken-4, body .hover\:blue-darken-4:hover, body .focus\:blue-darken-4:focus, body .active\:blue-darken-4:active {
 	background-color: #0d47a1 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-darken-4 {
+body .blue-text-darken-4, body .hover\:blue-text-darken-4:hover, body .focus\:blue-text-darken-4:focus, body .active\:blue-text-darken-4:active {
 	color: #0d47a1 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.accent-1 {
+body .blue-accent-1, body .hover\:blue-accent-1:hover, body .focus\:blue-accent-1:focus, body .active\:blue-accent-1:active {
 	background-color: #82b1ff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-accent-1 {
+body .blue-text-accent-1, body .hover\:blue-text-accent-1:hover, body .focus\:blue-text-accent-1:focus, body .active\:blue-text-accent-1:active {
 	color: #82b1ff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.accent-2 {
+body .blue-accent-2, body .hover\:blue-accent-2:hover, body .focus\:blue-accent-2:focus, body .active\:blue-accent-2:active {
 	background-color: #448aff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-accent-2 {
+body .blue-text-accent-2, body .hover\:blue-text-accent-2:hover, body .focus\:blue-text-accent-2:focus, body .active\:blue-text-accent-2:active {
 	color: #448aff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.accent-3 {
+body .blue-accent-3, body .hover\:blue-accent-3:hover, body .focus\:blue-accent-3:focus, body .active\:blue-accent-3:active {
 	background-color: #2979ff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-accent-3 {
+body .blue-text-accent-3, body .hover\:blue-text-accent-3:hover, body .focus\:blue-text-accent-3:focus, body .active\:blue-text-accent-3:active {
 	color: #2979ff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue.accent-4 {
+body .blue-accent-4, body .hover\:blue-accent-4:hover, body .focus\:blue-accent-4:focus, body .active\:blue-accent-4:active {
 	background-color: #2962ff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-text.text-accent-4 {
+body .blue-text-accent-4, body .hover\:blue-text-accent-4:hover, body .focus\:blue-text-accent-4:focus, body .active\:blue-text-accent-4:active {
 	color: #2962ff !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.light-blue {
+body .light-blue, body .hover\:light-blue:hover, body .focus\:light-blue:focus, body .active\:light-blue:active {
 	background-color: #03a9f4 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.light-blue-text {
+body .light-blue-text, body .hover\:light-blue-text:hover, body .focus\:light-blue-text:focus, body .active\:light-blue-text:active {
 	color: #03a9f4 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.lighten-5 {
+body .light-blue-lighten-5, body .hover\:light-blue-lighten-5:hover, body .focus\:light-blue-lighten-5:focus, body .active\:light-blue-lighten-5:active {
 	background-color: #e1f5fe !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-lighten-5 {
+body .light-blue-text-lighten-5, body .hover\:light-blue-text-lighten-5:hover, body .focus\:light-blue-text-lighten-5:focus, body .active\:light-blue-text-lighten-5:active {
 	color: #e1f5fe !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.lighten-4 {
+body .light-blue-lighten-4, body .hover\:light-blue-lighten-4:hover, body .focus\:light-blue-lighten-4:focus, body .active\:light-blue-lighten-4:active {
 	background-color: #b3e5fc !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-lighten-4 {
+body .light-blue-text-lighten-4, body .hover\:light-blue-text-lighten-4:hover, body .focus\:light-blue-text-lighten-4:focus, body .active\:light-blue-text-lighten-4:active {
 	color: #b3e5fc !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.lighten-3 {
+body .light-blue-lighten-3, body .hover\:light-blue-lighten-3:hover, body .focus\:light-blue-lighten-3:focus, body .active\:light-blue-lighten-3:active {
 	background-color: #81d4fa !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-lighten-3 {
+body .light-blue-text-lighten-3, body .hover\:light-blue-text-lighten-3:hover, body .focus\:light-blue-text-lighten-3:focus, body .active\:light-blue-text-lighten-3:active {
 	color: #81d4fa !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.lighten-2 {
+body .light-blue-lighten-2, body .hover\:light-blue-lighten-2:hover, body .focus\:light-blue-lighten-2:focus, body .active\:light-blue-lighten-2:active {
 	background-color: #4fc3f7 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-lighten-2 {
+body .light-blue-text-lighten-2, body .hover\:light-blue-text-lighten-2:hover, body .focus\:light-blue-text-lighten-2:focus, body .active\:light-blue-text-lighten-2:active {
 	color: #4fc3f7 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.lighten-1 {
+body .light-blue-lighten-1, body .hover\:light-blue-lighten-1:hover, body .focus\:light-blue-lighten-1:focus, body .active\:light-blue-lighten-1:active {
 	background-color: #29b6f6 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-lighten-1 {
+body .light-blue-text-lighten-1, body .hover\:light-blue-text-lighten-1:hover, body .focus\:light-blue-text-lighten-1:focus, body .active\:light-blue-text-lighten-1:active {
 	color: #29b6f6 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.darken-1 {
+body .light-blue-darken-1, body .hover\:light-blue-darken-1:hover, body .focus\:light-blue-darken-1:focus, body .active\:light-blue-darken-1:active {
 	background-color: #039be5 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-darken-1 {
+body .light-blue-text-darken-1, body .hover\:light-blue-text-darken-1:hover, body .focus\:light-blue-text-darken-1:focus, body .active\:light-blue-text-darken-1:active {
 	color: #039be5 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.darken-2 {
+body .light-blue-darken-2, body .hover\:light-blue-darken-2:hover, body .focus\:light-blue-darken-2:focus, body .active\:light-blue-darken-2:active {
 	background-color: #0288d1 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-darken-2 {
+body .light-blue-text-darken-2, body .hover\:light-blue-text-darken-2:hover, body .focus\:light-blue-text-darken-2:focus, body .active\:light-blue-text-darken-2:active {
 	color: #0288d1 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.darken-3 {
+body .light-blue-darken-3, body .hover\:light-blue-darken-3:hover, body .focus\:light-blue-darken-3:focus, body .active\:light-blue-darken-3:active {
 	background-color: #0277bd !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-darken-3 {
+body .light-blue-text-darken-3, body .hover\:light-blue-text-darken-3:hover, body .focus\:light-blue-text-darken-3:focus, body .active\:light-blue-text-darken-3:active {
 	color: #0277bd !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.darken-4 {
+body .light-blue-darken-4, body .hover\:light-blue-darken-4:hover, body .focus\:light-blue-darken-4:focus, body .active\:light-blue-darken-4:active {
 	background-color: #01579b !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-darken-4 {
+body .light-blue-text-darken-4, body .hover\:light-blue-text-darken-4:hover, body .focus\:light-blue-text-darken-4:focus, body .active\:light-blue-text-darken-4:active {
 	color: #01579b !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.accent-1 {
+body .light-blue-accent-1, body .hover\:light-blue-accent-1:hover, body .focus\:light-blue-accent-1:focus, body .active\:light-blue-accent-1:active {
 	background-color: #80d8ff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-accent-1 {
+body .light-blue-text-accent-1, body .hover\:light-blue-text-accent-1:hover, body .focus\:light-blue-text-accent-1:focus, body .active\:light-blue-text-accent-1:active {
 	color: #80d8ff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.accent-2 {
+body .light-blue-accent-2, body .hover\:light-blue-accent-2:hover, body .focus\:light-blue-accent-2:focus, body .active\:light-blue-accent-2:active {
 	background-color: #40c4ff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-accent-2 {
+body .light-blue-text-accent-2, body .hover\:light-blue-text-accent-2:hover, body .focus\:light-blue-text-accent-2:focus, body .active\:light-blue-text-accent-2:active {
 	color: #40c4ff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.accent-3 {
+body .light-blue-accent-3, body .hover\:light-blue-accent-3:hover, body .focus\:light-blue-accent-3:focus, body .active\:light-blue-accent-3:active {
 	background-color: #00b0ff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-accent-3 {
+body .light-blue-text-accent-3, body .hover\:light-blue-text-accent-3:hover, body .focus\:light-blue-text-accent-3:focus, body .active\:light-blue-text-accent-3:active {
 	color: #00b0ff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-blue.accent-4 {
+body .light-blue-accent-4, body .hover\:light-blue-accent-4:hover, body .focus\:light-blue-accent-4:focus, body .active\:light-blue-accent-4:active {
 	background-color: #0091ea !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-blue-text.text-accent-4 {
+body .light-blue-text-accent-4, body .hover\:light-blue-text-accent-4:hover, body .focus\:light-blue-text-accent-4:focus, body .active\:light-blue-text-accent-4:active {
 	color: #0091ea !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.cyan {
+body .cyan, body .hover\:cyan:hover, body .focus\:cyan:focus, body .active\:cyan:active {
 	background-color: #00bcd4 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.cyan-text {
+body .cyan-text, body .hover\:cyan-text:hover, body .focus\:cyan-text:focus, body .active\:cyan-text:active {
 	color: #00bcd4 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.lighten-5 {
+body .cyan-lighten-5, body .hover\:cyan-lighten-5:hover, body .focus\:cyan-lighten-5:focus, body .active\:cyan-lighten-5:active {
 	background-color: #e0f7fa !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-lighten-5 {
+body .cyan-text-lighten-5, body .hover\:cyan-text-lighten-5:hover, body .focus\:cyan-text-lighten-5:focus, body .active\:cyan-text-lighten-5:active {
 	color: #e0f7fa !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.lighten-4 {
+body .cyan-lighten-4, body .hover\:cyan-lighten-4:hover, body .focus\:cyan-lighten-4:focus, body .active\:cyan-lighten-4:active {
 	background-color: #b2ebf2 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-lighten-4 {
+body .cyan-text-lighten-4, body .hover\:cyan-text-lighten-4:hover, body .focus\:cyan-text-lighten-4:focus, body .active\:cyan-text-lighten-4:active {
 	color: #b2ebf2 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.lighten-3 {
+body .cyan-lighten-3, body .hover\:cyan-lighten-3:hover, body .focus\:cyan-lighten-3:focus, body .active\:cyan-lighten-3:active {
 	background-color: #80deea !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-lighten-3 {
+body .cyan-text-lighten-3, body .hover\:cyan-text-lighten-3:hover, body .focus\:cyan-text-lighten-3:focus, body .active\:cyan-text-lighten-3:active {
 	color: #80deea !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.lighten-2 {
+body .cyan-lighten-2, body .hover\:cyan-lighten-2:hover, body .focus\:cyan-lighten-2:focus, body .active\:cyan-lighten-2:active {
 	background-color: #4dd0e1 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-lighten-2 {
+body .cyan-text-lighten-2, body .hover\:cyan-text-lighten-2:hover, body .focus\:cyan-text-lighten-2:focus, body .active\:cyan-text-lighten-2:active {
 	color: #4dd0e1 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.lighten-1 {
+body .cyan-lighten-1, body .hover\:cyan-lighten-1:hover, body .focus\:cyan-lighten-1:focus, body .active\:cyan-lighten-1:active {
 	background-color: #26c6da !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-lighten-1 {
+body .cyan-text-lighten-1, body .hover\:cyan-text-lighten-1:hover, body .focus\:cyan-text-lighten-1:focus, body .active\:cyan-text-lighten-1:active {
 	color: #26c6da !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.darken-1 {
+body .cyan-darken-1, body .hover\:cyan-darken-1:hover, body .focus\:cyan-darken-1:focus, body .active\:cyan-darken-1:active {
 	background-color: #00acc1 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-darken-1 {
+body .cyan-text-darken-1, body .hover\:cyan-text-darken-1:hover, body .focus\:cyan-text-darken-1:focus, body .active\:cyan-text-darken-1:active {
 	color: #00acc1 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.darken-2 {
+body .cyan-darken-2, body .hover\:cyan-darken-2:hover, body .focus\:cyan-darken-2:focus, body .active\:cyan-darken-2:active {
 	background-color: #0097a7 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-darken-2 {
+body .cyan-text-darken-2, body .hover\:cyan-text-darken-2:hover, body .focus\:cyan-text-darken-2:focus, body .active\:cyan-text-darken-2:active {
 	color: #0097a7 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.darken-3 {
+body .cyan-darken-3, body .hover\:cyan-darken-3:hover, body .focus\:cyan-darken-3:focus, body .active\:cyan-darken-3:active {
 	background-color: #00838f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-darken-3 {
+body .cyan-text-darken-3, body .hover\:cyan-text-darken-3:hover, body .focus\:cyan-text-darken-3:focus, body .active\:cyan-text-darken-3:active {
 	color: #00838f !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.darken-4 {
+body .cyan-darken-4, body .hover\:cyan-darken-4:hover, body .focus\:cyan-darken-4:focus, body .active\:cyan-darken-4:active {
 	background-color: #006064 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-darken-4 {
+body .cyan-text-darken-4, body .hover\:cyan-text-darken-4:hover, body .focus\:cyan-text-darken-4:focus, body .active\:cyan-text-darken-4:active {
 	color: #006064 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.accent-1 {
+body .cyan-accent-1, body .hover\:cyan-accent-1:hover, body .focus\:cyan-accent-1:focus, body .active\:cyan-accent-1:active {
 	background-color: #84ffff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-accent-1 {
+body .cyan-text-accent-1, body .hover\:cyan-text-accent-1:hover, body .focus\:cyan-text-accent-1:focus, body .active\:cyan-text-accent-1:active {
 	color: #84ffff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.accent-2 {
+body .cyan-accent-2, body .hover\:cyan-accent-2:hover, body .focus\:cyan-accent-2:focus, body .active\:cyan-accent-2:active {
 	background-color: #18ffff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-accent-2 {
+body .cyan-text-accent-2, body .hover\:cyan-text-accent-2:hover, body .focus\:cyan-text-accent-2:focus, body .active\:cyan-text-accent-2:active {
 	color: #18ffff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.accent-3 {
+body .cyan-accent-3, body .hover\:cyan-accent-3:hover, body .focus\:cyan-accent-3:focus, body .active\:cyan-accent-3:active {
 	background-color: #00e5ff !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-accent-3 {
+body .cyan-text-accent-3, body .hover\:cyan-text-accent-3:hover, body .focus\:cyan-text-accent-3:focus, body .active\:cyan-text-accent-3:active {
 	color: #00e5ff !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.cyan.accent-4 {
+body .cyan-accent-4, body .hover\:cyan-accent-4:hover, body .focus\:cyan-accent-4:focus, body .active\:cyan-accent-4:active {
 	background-color: #00b8d4 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.cyan-text.text-accent-4 {
+body .cyan-text-accent-4, body .hover\:cyan-text-accent-4:hover, body .focus\:cyan-text-accent-4:focus, body .active\:cyan-text-accent-4:active {
 	color: #00b8d4 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.teal {
+body .teal, body .hover\:teal:hover, body .focus\:teal:focus, body .active\:teal:active {
 	background-color: #009688 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.teal-text {
+body .teal-text, body .hover\:teal-text:hover, body .focus\:teal-text:focus, body .active\:teal-text:active {
 	color: #009688 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.lighten-5 {
+body .teal-lighten-5, body .hover\:teal-lighten-5:hover, body .focus\:teal-lighten-5:focus, body .active\:teal-lighten-5:active {
 	background-color: #e0f2f1 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-lighten-5 {
+body .teal-text-lighten-5, body .hover\:teal-text-lighten-5:hover, body .focus\:teal-text-lighten-5:focus, body .active\:teal-text-lighten-5:active {
 	color: #e0f2f1 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.lighten-4 {
+body .teal-lighten-4, body .hover\:teal-lighten-4:hover, body .focus\:teal-lighten-4:focus, body .active\:teal-lighten-4:active {
 	background-color: #b2dfdb !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-lighten-4 {
+body .teal-text-lighten-4, body .hover\:teal-text-lighten-4:hover, body .focus\:teal-text-lighten-4:focus, body .active\:teal-text-lighten-4:active {
 	color: #b2dfdb !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.lighten-3 {
+body .teal-lighten-3, body .hover\:teal-lighten-3:hover, body .focus\:teal-lighten-3:focus, body .active\:teal-lighten-3:active {
 	background-color: #80cbc4 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-lighten-3 {
+body .teal-text-lighten-3, body .hover\:teal-text-lighten-3:hover, body .focus\:teal-text-lighten-3:focus, body .active\:teal-text-lighten-3:active {
 	color: #80cbc4 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.lighten-2 {
+body .teal-lighten-2, body .hover\:teal-lighten-2:hover, body .focus\:teal-lighten-2:focus, body .active\:teal-lighten-2:active {
 	background-color: #4db6ac !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-lighten-2 {
+body .teal-text-lighten-2, body .hover\:teal-text-lighten-2:hover, body .focus\:teal-text-lighten-2:focus, body .active\:teal-text-lighten-2:active {
 	color: #4db6ac !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.lighten-1 {
+body .teal-lighten-1, body .hover\:teal-lighten-1:hover, body .focus\:teal-lighten-1:focus, body .active\:teal-lighten-1:active {
 	background-color: #26a69a !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-lighten-1 {
+body .teal-text-lighten-1, body .hover\:teal-text-lighten-1:hover, body .focus\:teal-text-lighten-1:focus, body .active\:teal-text-lighten-1:active {
 	color: #26a69a !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.darken-1 {
+body .teal-darken-1, body .hover\:teal-darken-1:hover, body .focus\:teal-darken-1:focus, body .active\:teal-darken-1:active {
 	background-color: #00897b !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-darken-1 {
+body .teal-text-darken-1, body .hover\:teal-text-darken-1:hover, body .focus\:teal-text-darken-1:focus, body .active\:teal-text-darken-1:active {
 	color: #00897b !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.darken-2 {
+body .teal-darken-2, body .hover\:teal-darken-2:hover, body .focus\:teal-darken-2:focus, body .active\:teal-darken-2:active {
 	background-color: #00796b !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-darken-2 {
+body .teal-text-darken-2, body .hover\:teal-text-darken-2:hover, body .focus\:teal-text-darken-2:focus, body .active\:teal-text-darken-2:active {
 	color: #00796b !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.darken-3 {
+body .teal-darken-3, body .hover\:teal-darken-3:hover, body .focus\:teal-darken-3:focus, body .active\:teal-darken-3:active {
 	background-color: #00695c !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-darken-3 {
+body .teal-text-darken-3, body .hover\:teal-text-darken-3:hover, body .focus\:teal-text-darken-3:focus, body .active\:teal-text-darken-3:active {
 	color: #00695c !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.darken-4 {
+body .teal-darken-4, body .hover\:teal-darken-4:hover, body .focus\:teal-darken-4:focus, body .active\:teal-darken-4:active {
 	background-color: #004d40 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-darken-4 {
+body .teal-text-darken-4, body .hover\:teal-text-darken-4:hover, body .focus\:teal-text-darken-4:focus, body .active\:teal-text-darken-4:active {
 	color: #004d40 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.accent-1 {
+body .teal-accent-1, body .hover\:teal-accent-1:hover, body .focus\:teal-accent-1:focus, body .active\:teal-accent-1:active {
 	background-color: #a7ffeb !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-accent-1 {
+body .teal-text-accent-1, body .hover\:teal-text-accent-1:hover, body .focus\:teal-text-accent-1:focus, body .active\:teal-text-accent-1:active {
 	color: #a7ffeb !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.accent-2 {
+body .teal-accent-2, body .hover\:teal-accent-2:hover, body .focus\:teal-accent-2:focus, body .active\:teal-accent-2:active {
 	background-color: #64ffda !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-accent-2 {
+body .teal-text-accent-2, body .hover\:teal-text-accent-2:hover, body .focus\:teal-text-accent-2:focus, body .active\:teal-text-accent-2:active {
 	color: #64ffda !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.accent-3 {
+body .teal-accent-3, body .hover\:teal-accent-3:hover, body .focus\:teal-accent-3:focus, body .active\:teal-accent-3:active {
 	background-color: #1de9b6 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-accent-3 {
+body .teal-text-accent-3, body .hover\:teal-text-accent-3:hover, body .focus\:teal-text-accent-3:focus, body .active\:teal-text-accent-3:active {
 	color: #1de9b6 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.teal.accent-4 {
+body .teal-accent-4, body .hover\:teal-accent-4:hover, body .focus\:teal-accent-4:focus, body .active\:teal-accent-4:active {
 	background-color: #00bfa5 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.teal-text.text-accent-4 {
+body .teal-text-accent-4, body .hover\:teal-text-accent-4:hover, body .focus\:teal-text-accent-4:focus, body .active\:teal-text-accent-4:active {
 	color: #00bfa5 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.green {
+body .green, body .hover\:green:hover, body .focus\:green:focus, body .active\:green:active {
 	background-color: #4caf50 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.green-text {
+body .green-text, body .hover\:green-text:hover, body .focus\:green-text:focus, body .active\:green-text:active {
 	color: #4caf50 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.lighten-5 {
+body .green-lighten-5, body .hover\:green-lighten-5:hover, body .focus\:green-lighten-5:focus, body .active\:green-lighten-5:active {
 	background-color: #e8f5e9 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-lighten-5 {
+body .green-text-lighten-5, body .hover\:green-text-lighten-5:hover, body .focus\:green-text-lighten-5:focus, body .active\:green-text-lighten-5:active {
 	color: #e8f5e9 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.lighten-4 {
+body .green-lighten-4, body .hover\:green-lighten-4:hover, body .focus\:green-lighten-4:focus, body .active\:green-lighten-4:active {
 	background-color: #c8e6c9 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-lighten-4 {
+body .green-text-lighten-4, body .hover\:green-text-lighten-4:hover, body .focus\:green-text-lighten-4:focus, body .active\:green-text-lighten-4:active {
 	color: #c8e6c9 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.lighten-3 {
+body .green-lighten-3, body .hover\:green-lighten-3:hover, body .focus\:green-lighten-3:focus, body .active\:green-lighten-3:active {
 	background-color: #a5d6a7 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-lighten-3 {
+body .green-text-lighten-3, body .hover\:green-text-lighten-3:hover, body .focus\:green-text-lighten-3:focus, body .active\:green-text-lighten-3:active {
 	color: #a5d6a7 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.lighten-2 {
+body .green-lighten-2, body .hover\:green-lighten-2:hover, body .focus\:green-lighten-2:focus, body .active\:green-lighten-2:active {
 	background-color: #81c784 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-lighten-2 {
+body .green-text-lighten-2, body .hover\:green-text-lighten-2:hover, body .focus\:green-text-lighten-2:focus, body .active\:green-text-lighten-2:active {
 	color: #81c784 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.lighten-1 {
+body .green-lighten-1, body .hover\:green-lighten-1:hover, body .focus\:green-lighten-1:focus, body .active\:green-lighten-1:active {
 	background-color: #66bb6a !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-lighten-1 {
+body .green-text-lighten-1, body .hover\:green-text-lighten-1:hover, body .focus\:green-text-lighten-1:focus, body .active\:green-text-lighten-1:active {
 	color: #66bb6a !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.darken-1 {
+body .green-darken-1, body .hover\:green-darken-1:hover, body .focus\:green-darken-1:focus, body .active\:green-darken-1:active {
 	background-color: #43a047 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-darken-1 {
+body .green-text-darken-1, body .hover\:green-text-darken-1:hover, body .focus\:green-text-darken-1:focus, body .active\:green-text-darken-1:active {
 	color: #43a047 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.darken-2 {
+body .green-darken-2, body .hover\:green-darken-2:hover, body .focus\:green-darken-2:focus, body .active\:green-darken-2:active {
 	background-color: #388e3c !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-darken-2 {
+body .green-text-darken-2, body .hover\:green-text-darken-2:hover, body .focus\:green-text-darken-2:focus, body .active\:green-text-darken-2:active {
 	color: #388e3c !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.darken-3 {
+body .green-darken-3, body .hover\:green-darken-3:hover, body .focus\:green-darken-3:focus, body .active\:green-darken-3:active {
 	background-color: #2e7d32 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-darken-3 {
+body .green-text-darken-3, body .hover\:green-text-darken-3:hover, body .focus\:green-text-darken-3:focus, body .active\:green-text-darken-3:active {
 	color: #2e7d32 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.darken-4 {
+body .green-darken-4, body .hover\:green-darken-4:hover, body .focus\:green-darken-4:focus, body .active\:green-darken-4:active {
 	background-color: #1b5e20 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-darken-4 {
+body .green-text-darken-4, body .hover\:green-text-darken-4:hover, body .focus\:green-text-darken-4:focus, body .active\:green-text-darken-4:active {
 	color: #1b5e20 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.accent-1 {
+body .green-accent-1, body .hover\:green-accent-1:hover, body .focus\:green-accent-1:focus, body .active\:green-accent-1:active {
 	background-color: #b9f6ca !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-accent-1 {
+body .green-text-accent-1, body .hover\:green-text-accent-1:hover, body .focus\:green-text-accent-1:focus, body .active\:green-text-accent-1:active {
 	color: #b9f6ca !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.accent-2 {
+body .green-accent-2, body .hover\:green-accent-2:hover, body .focus\:green-accent-2:focus, body .active\:green-accent-2:active {
 	background-color: #69f0ae !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-accent-2 {
+body .green-text-accent-2, body .hover\:green-text-accent-2:hover, body .focus\:green-text-accent-2:focus, body .active\:green-text-accent-2:active {
 	color: #69f0ae !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.accent-3 {
+body .green-accent-3, body .hover\:green-accent-3:hover, body .focus\:green-accent-3:focus, body .active\:green-accent-3:active {
 	background-color: #00e676 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-accent-3 {
+body .green-text-accent-3, body .hover\:green-text-accent-3:hover, body .focus\:green-text-accent-3:focus, body .active\:green-text-accent-3:active {
 	color: #00e676 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.green.accent-4 {
+body .green-accent-4, body .hover\:green-accent-4:hover, body .focus\:green-accent-4:focus, body .active\:green-accent-4:active {
 	background-color: #00c853 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.green-text.text-accent-4 {
+body .green-text-accent-4, body .hover\:green-text-accent-4:hover, body .focus\:green-text-accent-4:focus, body .active\:green-text-accent-4:active {
 	color: #00c853 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.light-green {
+body .light-green, body .hover\:light-green:hover, body .focus\:light-green:focus, body .active\:light-green:active {
 	background-color: #8bc34a !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.light-green-text {
+body .light-green-text, body .hover\:light-green-text:hover, body .focus\:light-green-text:focus, body .active\:light-green-text:active {
 	color: #8bc34a !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.lighten-5 {
+body .light-green-lighten-5, body .hover\:light-green-lighten-5:hover, body .focus\:light-green-lighten-5:focus, body .active\:light-green-lighten-5:active {
 	background-color: #f1f8e9 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-lighten-5 {
+body .light-green-text-lighten-5, body .hover\:light-green-text-lighten-5:hover, body .focus\:light-green-text-lighten-5:focus, body .active\:light-green-text-lighten-5:active {
 	color: #f1f8e9 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.lighten-4 {
+body .light-green-lighten-4, body .hover\:light-green-lighten-4:hover, body .focus\:light-green-lighten-4:focus, body .active\:light-green-lighten-4:active {
 	background-color: #dcedc8 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-lighten-4 {
+body .light-green-text-lighten-4, body .hover\:light-green-text-lighten-4:hover, body .focus\:light-green-text-lighten-4:focus, body .active\:light-green-text-lighten-4:active {
 	color: #dcedc8 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.lighten-3 {
+body .light-green-lighten-3, body .hover\:light-green-lighten-3:hover, body .focus\:light-green-lighten-3:focus, body .active\:light-green-lighten-3:active {
 	background-color: #c5e1a5 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-lighten-3 {
+body .light-green-text-lighten-3, body .hover\:light-green-text-lighten-3:hover, body .focus\:light-green-text-lighten-3:focus, body .active\:light-green-text-lighten-3:active {
 	color: #c5e1a5 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.lighten-2 {
+body .light-green-lighten-2, body .hover\:light-green-lighten-2:hover, body .focus\:light-green-lighten-2:focus, body .active\:light-green-lighten-2:active {
 	background-color: #aed581 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-lighten-2 {
+body .light-green-text-lighten-2, body .hover\:light-green-text-lighten-2:hover, body .focus\:light-green-text-lighten-2:focus, body .active\:light-green-text-lighten-2:active {
 	color: #aed581 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.lighten-1 {
+body .light-green-lighten-1, body .hover\:light-green-lighten-1:hover, body .focus\:light-green-lighten-1:focus, body .active\:light-green-lighten-1:active {
 	background-color: #9ccc65 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-lighten-1 {
+body .light-green-text-lighten-1, body .hover\:light-green-text-lighten-1:hover, body .focus\:light-green-text-lighten-1:focus, body .active\:light-green-text-lighten-1:active {
 	color: #9ccc65 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.darken-1 {
+body .light-green-darken-1, body .hover\:light-green-darken-1:hover, body .focus\:light-green-darken-1:focus, body .active\:light-green-darken-1:active {
 	background-color: #7cb342 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-darken-1 {
+body .light-green-text-darken-1, body .hover\:light-green-text-darken-1:hover, body .focus\:light-green-text-darken-1:focus, body .active\:light-green-text-darken-1:active {
 	color: #7cb342 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.darken-2 {
+body .light-green-darken-2, body .hover\:light-green-darken-2:hover, body .focus\:light-green-darken-2:focus, body .active\:light-green-darken-2:active {
 	background-color: #689f38 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-darken-2 {
+body .light-green-text-darken-2, body .hover\:light-green-text-darken-2:hover, body .focus\:light-green-text-darken-2:focus, body .active\:light-green-text-darken-2:active {
 	color: #689f38 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.darken-3 {
+body .light-green-darken-3, body .hover\:light-green-darken-3:hover, body .focus\:light-green-darken-3:focus, body .active\:light-green-darken-3:active {
 	background-color: #558b2f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-darken-3 {
+body .light-green-text-darken-3, body .hover\:light-green-text-darken-3:hover, body .focus\:light-green-text-darken-3:focus, body .active\:light-green-text-darken-3:active {
 	color: #558b2f !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.darken-4 {
+body .light-green-darken-4, body .hover\:light-green-darken-4:hover, body .focus\:light-green-darken-4:focus, body .active\:light-green-darken-4:active {
 	background-color: #33691e !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-darken-4 {
+body .light-green-text-darken-4, body .hover\:light-green-text-darken-4:hover, body .focus\:light-green-text-darken-4:focus, body .active\:light-green-text-darken-4:active {
 	color: #33691e !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.accent-1 {
+body .light-green-accent-1, body .hover\:light-green-accent-1:hover, body .focus\:light-green-accent-1:focus, body .active\:light-green-accent-1:active {
 	background-color: #ccff90 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-accent-1 {
+body .light-green-text-accent-1, body .hover\:light-green-text-accent-1:hover, body .focus\:light-green-text-accent-1:focus, body .active\:light-green-text-accent-1:active {
 	color: #ccff90 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.accent-2 {
+body .light-green-accent-2, body .hover\:light-green-accent-2:hover, body .focus\:light-green-accent-2:focus, body .active\:light-green-accent-2:active {
 	background-color: #b2ff59 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-accent-2 {
+body .light-green-text-accent-2, body .hover\:light-green-text-accent-2:hover, body .focus\:light-green-text-accent-2:focus, body .active\:light-green-text-accent-2:active {
 	color: #b2ff59 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.accent-3 {
+body .light-green-accent-3, body .hover\:light-green-accent-3:hover, body .focus\:light-green-accent-3:focus, body .active\:light-green-accent-3:active {
 	background-color: #76ff03 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-accent-3 {
+body .light-green-text-accent-3, body .hover\:light-green-text-accent-3:hover, body .focus\:light-green-text-accent-3:focus, body .active\:light-green-text-accent-3:active {
 	color: #76ff03 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.light-green.accent-4 {
+body .light-green-accent-4, body .hover\:light-green-accent-4:hover, body .focus\:light-green-accent-4:focus, body .active\:light-green-accent-4:active {
 	background-color: #64dd17 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.light-green-text.text-accent-4 {
+body .light-green-text-accent-4, body .hover\:light-green-text-accent-4:hover, body .focus\:light-green-text-accent-4:focus, body .active\:light-green-text-accent-4:active {
 	color: #64dd17 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.lime {
+body .lime, body .hover\:lime:hover, body .focus\:lime:focus, body .active\:lime:active {
 	background-color: #cddc39 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.lime-text {
+body .lime-text, body .hover\:lime-text:hover, body .focus\:lime-text:focus, body .active\:lime-text:active {
 	color: #cddc39 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.lighten-5 {
+body .lime-lighten-5, body .hover\:lime-lighten-5:hover, body .focus\:lime-lighten-5:focus, body .active\:lime-lighten-5:active {
 	background-color: #f9fbe7 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-lighten-5 {
+body .lime-text-lighten-5, body .hover\:lime-text-lighten-5:hover, body .focus\:lime-text-lighten-5:focus, body .active\:lime-text-lighten-5:active {
 	color: #f9fbe7 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.lighten-4 {
+body .lime-lighten-4, body .hover\:lime-lighten-4:hover, body .focus\:lime-lighten-4:focus, body .active\:lime-lighten-4:active {
 	background-color: #f0f4c3 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-lighten-4 {
+body .lime-text-lighten-4, body .hover\:lime-text-lighten-4:hover, body .focus\:lime-text-lighten-4:focus, body .active\:lime-text-lighten-4:active {
 	color: #f0f4c3 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.lighten-3 {
+body .lime-lighten-3, body .hover\:lime-lighten-3:hover, body .focus\:lime-lighten-3:focus, body .active\:lime-lighten-3:active {
 	background-color: #e6ee9c !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-lighten-3 {
+body .lime-text-lighten-3, body .hover\:lime-text-lighten-3:hover, body .focus\:lime-text-lighten-3:focus, body .active\:lime-text-lighten-3:active {
 	color: #e6ee9c !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.lighten-2 {
+body .lime-lighten-2, body .hover\:lime-lighten-2:hover, body .focus\:lime-lighten-2:focus, body .active\:lime-lighten-2:active {
 	background-color: #dce775 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-lighten-2 {
+body .lime-text-lighten-2, body .hover\:lime-text-lighten-2:hover, body .focus\:lime-text-lighten-2:focus, body .active\:lime-text-lighten-2:active {
 	color: #dce775 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.lighten-1 {
+body .lime-lighten-1, body .hover\:lime-lighten-1:hover, body .focus\:lime-lighten-1:focus, body .active\:lime-lighten-1:active {
 	background-color: #d4e157 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-lighten-1 {
+body .lime-text-lighten-1, body .hover\:lime-text-lighten-1:hover, body .focus\:lime-text-lighten-1:focus, body .active\:lime-text-lighten-1:active {
 	color: #d4e157 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.darken-1 {
+body .lime-darken-1, body .hover\:lime-darken-1:hover, body .focus\:lime-darken-1:focus, body .active\:lime-darken-1:active {
 	background-color: #c0ca33 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-darken-1 {
+body .lime-text-darken-1, body .hover\:lime-text-darken-1:hover, body .focus\:lime-text-darken-1:focus, body .active\:lime-text-darken-1:active {
 	color: #c0ca33 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.darken-2 {
+body .lime-darken-2, body .hover\:lime-darken-2:hover, body .focus\:lime-darken-2:focus, body .active\:lime-darken-2:active {
 	background-color: #afb42b !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-darken-2 {
+body .lime-text-darken-2, body .hover\:lime-text-darken-2:hover, body .focus\:lime-text-darken-2:focus, body .active\:lime-text-darken-2:active {
 	color: #afb42b !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.darken-3 {
+body .lime-darken-3, body .hover\:lime-darken-3:hover, body .focus\:lime-darken-3:focus, body .active\:lime-darken-3:active {
 	background-color: #9e9d24 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-darken-3 {
+body .lime-text-darken-3, body .hover\:lime-text-darken-3:hover, body .focus\:lime-text-darken-3:focus, body .active\:lime-text-darken-3:active {
 	color: #9e9d24 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.darken-4 {
+body .lime-darken-4, body .hover\:lime-darken-4:hover, body .focus\:lime-darken-4:focus, body .active\:lime-darken-4:active {
 	background-color: #827717 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-darken-4 {
+body .lime-text-darken-4, body .hover\:lime-text-darken-4:hover, body .focus\:lime-text-darken-4:focus, body .active\:lime-text-darken-4:active {
 	color: #827717 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.accent-1 {
+body .lime-accent-1, body .hover\:lime-accent-1:hover, body .focus\:lime-accent-1:focus, body .active\:lime-accent-1:active {
 	background-color: #f4ff81 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-accent-1 {
+body .lime-text-accent-1, body .hover\:lime-text-accent-1:hover, body .focus\:lime-text-accent-1:focus, body .active\:lime-text-accent-1:active {
 	color: #f4ff81 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.accent-2 {
+body .lime-accent-2, body .hover\:lime-accent-2:hover, body .focus\:lime-accent-2:focus, body .active\:lime-accent-2:active {
 	background-color: #eeff41 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-accent-2 {
+body .lime-text-accent-2, body .hover\:lime-text-accent-2:hover, body .focus\:lime-text-accent-2:focus, body .active\:lime-text-accent-2:active {
 	color: #eeff41 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.accent-3 {
+body .lime-accent-3, body .hover\:lime-accent-3:hover, body .focus\:lime-accent-3:focus, body .active\:lime-accent-3:active {
 	background-color: #c6ff00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-accent-3 {
+body .lime-text-accent-3, body .hover\:lime-text-accent-3:hover, body .focus\:lime-text-accent-3:focus, body .active\:lime-text-accent-3:active {
 	color: #c6ff00 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.lime.accent-4 {
+body .lime-accent-4, body .hover\:lime-accent-4:hover, body .focus\:lime-accent-4:focus, body .active\:lime-accent-4:active {
 	background-color: #aeea00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.lime-text.text-accent-4 {
+body .lime-text-accent-4, body .hover\:lime-text-accent-4:hover, body .focus\:lime-text-accent-4:focus, body .active\:lime-text-accent-4:active {
 	color: #aeea00 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.yellow {
+body .yellow, body .hover\:yellow:hover, body .focus\:yellow:focus, body .active\:yellow:active {
 	background-color: #ffeb3b !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.yellow-text {
+body .yellow-text, body .hover\:yellow-text:hover, body .focus\:yellow-text:focus, body .active\:yellow-text:active {
 	color: #ffeb3b !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.lighten-5 {
+body .yellow-lighten-5, body .hover\:yellow-lighten-5:hover, body .focus\:yellow-lighten-5:focus, body .active\:yellow-lighten-5:active {
 	background-color: #fffde7 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-lighten-5 {
+body .yellow-text-lighten-5, body .hover\:yellow-text-lighten-5:hover, body .focus\:yellow-text-lighten-5:focus, body .active\:yellow-text-lighten-5:active {
 	color: #fffde7 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.lighten-4 {
+body .yellow-lighten-4, body .hover\:yellow-lighten-4:hover, body .focus\:yellow-lighten-4:focus, body .active\:yellow-lighten-4:active {
 	background-color: #fff9c4 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-lighten-4 {
+body .yellow-text-lighten-4, body .hover\:yellow-text-lighten-4:hover, body .focus\:yellow-text-lighten-4:focus, body .active\:yellow-text-lighten-4:active {
 	color: #fff9c4 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.lighten-3 {
+body .yellow-lighten-3, body .hover\:yellow-lighten-3:hover, body .focus\:yellow-lighten-3:focus, body .active\:yellow-lighten-3:active {
 	background-color: #fff59d !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-lighten-3 {
+body .yellow-text-lighten-3, body .hover\:yellow-text-lighten-3:hover, body .focus\:yellow-text-lighten-3:focus, body .active\:yellow-text-lighten-3:active {
 	color: #fff59d !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.lighten-2 {
+body .yellow-lighten-2, body .hover\:yellow-lighten-2:hover, body .focus\:yellow-lighten-2:focus, body .active\:yellow-lighten-2:active {
 	background-color: #fff176 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-lighten-2 {
+body .yellow-text-lighten-2, body .hover\:yellow-text-lighten-2:hover, body .focus\:yellow-text-lighten-2:focus, body .active\:yellow-text-lighten-2:active {
 	color: #fff176 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.lighten-1 {
+body .yellow-lighten-1, body .hover\:yellow-lighten-1:hover, body .focus\:yellow-lighten-1:focus, body .active\:yellow-lighten-1:active {
 	background-color: #ffee58 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-lighten-1 {
+body .yellow-text-lighten-1, body .hover\:yellow-text-lighten-1:hover, body .focus\:yellow-text-lighten-1:focus, body .active\:yellow-text-lighten-1:active {
 	color: #ffee58 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.darken-1 {
+body .yellow-darken-1, body .hover\:yellow-darken-1:hover, body .focus\:yellow-darken-1:focus, body .active\:yellow-darken-1:active {
 	background-color: #fdd835 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-darken-1 {
+body .yellow-text-darken-1, body .hover\:yellow-text-darken-1:hover, body .focus\:yellow-text-darken-1:focus, body .active\:yellow-text-darken-1:active {
 	color: #fdd835 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.darken-2 {
+body .yellow-darken-2, body .hover\:yellow-darken-2:hover, body .focus\:yellow-darken-2:focus, body .active\:yellow-darken-2:active {
 	background-color: #fbc02d !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-darken-2 {
+body .yellow-text-darken-2, body .hover\:yellow-text-darken-2:hover, body .focus\:yellow-text-darken-2:focus, body .active\:yellow-text-darken-2:active {
 	color: #fbc02d !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.darken-3 {
+body .yellow-darken-3, body .hover\:yellow-darken-3:hover, body .focus\:yellow-darken-3:focus, body .active\:yellow-darken-3:active {
 	background-color: #f9a825 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-darken-3 {
+body .yellow-text-darken-3, body .hover\:yellow-text-darken-3:hover, body .focus\:yellow-text-darken-3:focus, body .active\:yellow-text-darken-3:active {
 	color: #f9a825 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.darken-4 {
+body .yellow-darken-4, body .hover\:yellow-darken-4:hover, body .focus\:yellow-darken-4:focus, body .active\:yellow-darken-4:active {
 	background-color: #f57f17 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-darken-4 {
+body .yellow-text-darken-4, body .hover\:yellow-text-darken-4:hover, body .focus\:yellow-text-darken-4:focus, body .active\:yellow-text-darken-4:active {
 	color: #f57f17 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.accent-1 {
+body .yellow-accent-1, body .hover\:yellow-accent-1:hover, body .focus\:yellow-accent-1:focus, body .active\:yellow-accent-1:active {
 	background-color: #ffff8d !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-accent-1 {
+body .yellow-text-accent-1, body .hover\:yellow-text-accent-1:hover, body .focus\:yellow-text-accent-1:focus, body .active\:yellow-text-accent-1:active {
 	color: #ffff8d !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.accent-2 {
-	background-color: #ffff00 !important;
+body .yellow-accent-2, body .hover\:yellow-accent-2:hover, body .focus\:yellow-accent-2:focus, body .active\:yellow-accent-2:active {
+	background-color: #ff0 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-accent-2 {
-	color: #ffff00 !important;
+body .yellow-text-accent-2, body .hover\:yellow-text-accent-2:hover, body .focus\:yellow-text-accent-2:focus, body .active\:yellow-text-accent-2:active {
+	color: #ff0 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.accent-3 {
+body .yellow-accent-3, body .hover\:yellow-accent-3:hover, body .focus\:yellow-accent-3:focus, body .active\:yellow-accent-3:active {
 	background-color: #ffea00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-accent-3 {
+body .yellow-text-accent-3, body .hover\:yellow-text-accent-3:hover, body .focus\:yellow-text-accent-3:focus, body .active\:yellow-text-accent-3:active {
 	color: #ffea00 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.yellow.accent-4 {
+body .yellow-accent-4, body .hover\:yellow-accent-4:hover, body .focus\:yellow-accent-4:focus, body .active\:yellow-accent-4:active {
 	background-color: #ffd600 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.yellow-text.text-accent-4 {
+body .yellow-text-accent-4, body .hover\:yellow-text-accent-4:hover, body .focus\:yellow-text-accent-4:focus, body .active\:yellow-text-accent-4:active {
 	color: #ffd600 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.amber {
+body .amber, body .hover\:amber:hover, body .focus\:amber:focus, body .active\:amber:active {
 	background-color: #ffc107 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.amber-text {
+body .amber-text, body .hover\:amber-text:hover, body .focus\:amber-text:focus, body .active\:amber-text:active {
 	color: #ffc107 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.lighten-5 {
+body .amber-lighten-5, body .hover\:amber-lighten-5:hover, body .focus\:amber-lighten-5:focus, body .active\:amber-lighten-5:active {
 	background-color: #fff8e1 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-lighten-5 {
+body .amber-text-lighten-5, body .hover\:amber-text-lighten-5:hover, body .focus\:amber-text-lighten-5:focus, body .active\:amber-text-lighten-5:active {
 	color: #fff8e1 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.lighten-4 {
+body .amber-lighten-4, body .hover\:amber-lighten-4:hover, body .focus\:amber-lighten-4:focus, body .active\:amber-lighten-4:active {
 	background-color: #ffecb3 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-lighten-4 {
+body .amber-text-lighten-4, body .hover\:amber-text-lighten-4:hover, body .focus\:amber-text-lighten-4:focus, body .active\:amber-text-lighten-4:active {
 	color: #ffecb3 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.lighten-3 {
+body .amber-lighten-3, body .hover\:amber-lighten-3:hover, body .focus\:amber-lighten-3:focus, body .active\:amber-lighten-3:active {
 	background-color: #ffe082 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-lighten-3 {
+body .amber-text-lighten-3, body .hover\:amber-text-lighten-3:hover, body .focus\:amber-text-lighten-3:focus, body .active\:amber-text-lighten-3:active {
 	color: #ffe082 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.lighten-2 {
+body .amber-lighten-2, body .hover\:amber-lighten-2:hover, body .focus\:amber-lighten-2:focus, body .active\:amber-lighten-2:active {
 	background-color: #ffd54f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-lighten-2 {
+body .amber-text-lighten-2, body .hover\:amber-text-lighten-2:hover, body .focus\:amber-text-lighten-2:focus, body .active\:amber-text-lighten-2:active {
 	color: #ffd54f !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.lighten-1 {
+body .amber-lighten-1, body .hover\:amber-lighten-1:hover, body .focus\:amber-lighten-1:focus, body .active\:amber-lighten-1:active {
 	background-color: #ffca28 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-lighten-1 {
+body .amber-text-lighten-1, body .hover\:amber-text-lighten-1:hover, body .focus\:amber-text-lighten-1:focus, body .active\:amber-text-lighten-1:active {
 	color: #ffca28 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.darken-1 {
+body .amber-darken-1, body .hover\:amber-darken-1:hover, body .focus\:amber-darken-1:focus, body .active\:amber-darken-1:active {
 	background-color: #ffb300 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-darken-1 {
+body .amber-text-darken-1, body .hover\:amber-text-darken-1:hover, body .focus\:amber-text-darken-1:focus, body .active\:amber-text-darken-1:active {
 	color: #ffb300 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.darken-2 {
+body .amber-darken-2, body .hover\:amber-darken-2:hover, body .focus\:amber-darken-2:focus, body .active\:amber-darken-2:active {
 	background-color: #ffa000 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-darken-2 {
+body .amber-text-darken-2, body .hover\:amber-text-darken-2:hover, body .focus\:amber-text-darken-2:focus, body .active\:amber-text-darken-2:active {
 	color: #ffa000 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.darken-3 {
+body .amber-darken-3, body .hover\:amber-darken-3:hover, body .focus\:amber-darken-3:focus, body .active\:amber-darken-3:active {
 	background-color: #ff8f00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-darken-3 {
+body .amber-text-darken-3, body .hover\:amber-text-darken-3:hover, body .focus\:amber-text-darken-3:focus, body .active\:amber-text-darken-3:active {
 	color: #ff8f00 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.darken-4 {
+body .amber-darken-4, body .hover\:amber-darken-4:hover, body .focus\:amber-darken-4:focus, body .active\:amber-darken-4:active {
 	background-color: #ff6f00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-darken-4 {
+body .amber-text-darken-4, body .hover\:amber-text-darken-4:hover, body .focus\:amber-text-darken-4:focus, body .active\:amber-text-darken-4:active {
 	color: #ff6f00 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.accent-1 {
+body .amber-accent-1, body .hover\:amber-accent-1:hover, body .focus\:amber-accent-1:focus, body .active\:amber-accent-1:active {
 	background-color: #ffe57f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-accent-1 {
+body .amber-text-accent-1, body .hover\:amber-text-accent-1:hover, body .focus\:amber-text-accent-1:focus, body .active\:amber-text-accent-1:active {
 	color: #ffe57f !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.accent-2 {
+body .amber-accent-2, body .hover\:amber-accent-2:hover, body .focus\:amber-accent-2:focus, body .active\:amber-accent-2:active {
 	background-color: #ffd740 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-accent-2 {
+body .amber-text-accent-2, body .hover\:amber-text-accent-2:hover, body .focus\:amber-text-accent-2:focus, body .active\:amber-text-accent-2:active {
 	color: #ffd740 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.accent-3 {
+body .amber-accent-3, body .hover\:amber-accent-3:hover, body .focus\:amber-accent-3:focus, body .active\:amber-accent-3:active {
 	background-color: #ffc400 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-accent-3 {
+body .amber-text-accent-3, body .hover\:amber-text-accent-3:hover, body .focus\:amber-text-accent-3:focus, body .active\:amber-text-accent-3:active {
 	color: #ffc400 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.amber.accent-4 {
+body .amber-accent-4, body .hover\:amber-accent-4:hover, body .focus\:amber-accent-4:focus, body .active\:amber-accent-4:active {
 	background-color: #ffab00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.amber-text.text-accent-4 {
+body .amber-text-accent-4, body .hover\:amber-text-accent-4:hover, body .focus\:amber-text-accent-4:focus, body .active\:amber-text-accent-4:active {
 	color: #ffab00 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.orange {
+body .orange, body .hover\:orange:hover, body .focus\:orange:focus, body .active\:orange:active {
 	background-color: #ff9800 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.orange-text {
+body .orange-text, body .hover\:orange-text:hover, body .focus\:orange-text:focus, body .active\:orange-text:active {
 	color: #ff9800 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.lighten-5 {
+body .orange-lighten-5, body .hover\:orange-lighten-5:hover, body .focus\:orange-lighten-5:focus, body .active\:orange-lighten-5:active {
 	background-color: #fff3e0 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-lighten-5 {
+body .orange-text-lighten-5, body .hover\:orange-text-lighten-5:hover, body .focus\:orange-text-lighten-5:focus, body .active\:orange-text-lighten-5:active {
 	color: #fff3e0 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.lighten-4 {
+body .orange-lighten-4, body .hover\:orange-lighten-4:hover, body .focus\:orange-lighten-4:focus, body .active\:orange-lighten-4:active {
 	background-color: #ffe0b2 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-lighten-4 {
+body .orange-text-lighten-4, body .hover\:orange-text-lighten-4:hover, body .focus\:orange-text-lighten-4:focus, body .active\:orange-text-lighten-4:active {
 	color: #ffe0b2 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.lighten-3 {
+body .orange-lighten-3, body .hover\:orange-lighten-3:hover, body .focus\:orange-lighten-3:focus, body .active\:orange-lighten-3:active {
 	background-color: #ffcc80 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-lighten-3 {
+body .orange-text-lighten-3, body .hover\:orange-text-lighten-3:hover, body .focus\:orange-text-lighten-3:focus, body .active\:orange-text-lighten-3:active {
 	color: #ffcc80 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.lighten-2 {
+body .orange-lighten-2, body .hover\:orange-lighten-2:hover, body .focus\:orange-lighten-2:focus, body .active\:orange-lighten-2:active {
 	background-color: #ffb74d !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-lighten-2 {
+body .orange-text-lighten-2, body .hover\:orange-text-lighten-2:hover, body .focus\:orange-text-lighten-2:focus, body .active\:orange-text-lighten-2:active {
 	color: #ffb74d !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.lighten-1 {
+body .orange-lighten-1, body .hover\:orange-lighten-1:hover, body .focus\:orange-lighten-1:focus, body .active\:orange-lighten-1:active {
 	background-color: #ffa726 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-lighten-1 {
+body .orange-text-lighten-1, body .hover\:orange-text-lighten-1:hover, body .focus\:orange-text-lighten-1:focus, body .active\:orange-text-lighten-1:active {
 	color: #ffa726 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.darken-1 {
+body .orange-darken-1, body .hover\:orange-darken-1:hover, body .focus\:orange-darken-1:focus, body .active\:orange-darken-1:active {
 	background-color: #fb8c00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-darken-1 {
+body .orange-text-darken-1, body .hover\:orange-text-darken-1:hover, body .focus\:orange-text-darken-1:focus, body .active\:orange-text-darken-1:active {
 	color: #fb8c00 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.darken-2 {
+body .orange-darken-2, body .hover\:orange-darken-2:hover, body .focus\:orange-darken-2:focus, body .active\:orange-darken-2:active {
 	background-color: #f57c00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-darken-2 {
+body .orange-text-darken-2, body .hover\:orange-text-darken-2:hover, body .focus\:orange-text-darken-2:focus, body .active\:orange-text-darken-2:active {
 	color: #f57c00 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.darken-3 {
+body .orange-darken-3, body .hover\:orange-darken-3:hover, body .focus\:orange-darken-3:focus, body .active\:orange-darken-3:active {
 	background-color: #ef6c00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-darken-3 {
+body .orange-text-darken-3, body .hover\:orange-text-darken-3:hover, body .focus\:orange-text-darken-3:focus, body .active\:orange-text-darken-3:active {
 	color: #ef6c00 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.darken-4 {
+body .orange-darken-4, body .hover\:orange-darken-4:hover, body .focus\:orange-darken-4:focus, body .active\:orange-darken-4:active {
 	background-color: #e65100 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-darken-4 {
+body .orange-text-darken-4, body .hover\:orange-text-darken-4:hover, body .focus\:orange-text-darken-4:focus, body .active\:orange-text-darken-4:active {
 	color: #e65100 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.accent-1 {
+body .orange-accent-1, body .hover\:orange-accent-1:hover, body .focus\:orange-accent-1:focus, body .active\:orange-accent-1:active {
 	background-color: #ffd180 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-accent-1 {
+body .orange-text-accent-1, body .hover\:orange-text-accent-1:hover, body .focus\:orange-text-accent-1:focus, body .active\:orange-text-accent-1:active {
 	color: #ffd180 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.accent-2 {
+body .orange-accent-2, body .hover\:orange-accent-2:hover, body .focus\:orange-accent-2:focus, body .active\:orange-accent-2:active {
 	background-color: #ffab40 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-accent-2 {
+body .orange-text-accent-2, body .hover\:orange-text-accent-2:hover, body .focus\:orange-text-accent-2:focus, body .active\:orange-text-accent-2:active {
 	color: #ffab40 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.accent-3 {
+body .orange-accent-3, body .hover\:orange-accent-3:hover, body .focus\:orange-accent-3:focus, body .active\:orange-accent-3:active {
 	background-color: #ff9100 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-accent-3 {
+body .orange-text-accent-3, body .hover\:orange-text-accent-3:hover, body .focus\:orange-text-accent-3:focus, body .active\:orange-text-accent-3:active {
 	color: #ff9100 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.orange.accent-4 {
+body .orange-accent-4, body .hover\:orange-accent-4:hover, body .focus\:orange-accent-4:focus, body .active\:orange-accent-4:active {
 	background-color: #ff6d00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.orange-text.text-accent-4 {
+body .orange-text-accent-4, body .hover\:orange-text-accent-4:hover, body .focus\:orange-text-accent-4:focus, body .active\:orange-text-accent-4:active {
 	color: #ff6d00 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.deep-orange {
+body .deep-orange, body .hover\:deep-orange:hover, body .focus\:deep-orange:focus, body .active\:deep-orange:active {
 	background-color: #ff5722 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.deep-orange-text {
+body .deep-orange-text, body .hover\:deep-orange-text:hover, body .focus\:deep-orange-text:focus, body .active\:deep-orange-text:active {
 	color: #ff5722 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.lighten-5 {
+body .deep-orange-lighten-5, body .hover\:deep-orange-lighten-5:hover, body .focus\:deep-orange-lighten-5:focus, body .active\:deep-orange-lighten-5:active {
 	background-color: #fbe9e7 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-lighten-5 {
+body .deep-orange-text-lighten-5, body .hover\:deep-orange-text-lighten-5:hover, body .focus\:deep-orange-text-lighten-5:focus, body .active\:deep-orange-text-lighten-5:active {
 	color: #fbe9e7 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.lighten-4 {
+body .deep-orange-lighten-4, body .hover\:deep-orange-lighten-4:hover, body .focus\:deep-orange-lighten-4:focus, body .active\:deep-orange-lighten-4:active {
 	background-color: #ffccbc !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-lighten-4 {
+body .deep-orange-text-lighten-4, body .hover\:deep-orange-text-lighten-4:hover, body .focus\:deep-orange-text-lighten-4:focus, body .active\:deep-orange-text-lighten-4:active {
 	color: #ffccbc !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.lighten-3 {
+body .deep-orange-lighten-3, body .hover\:deep-orange-lighten-3:hover, body .focus\:deep-orange-lighten-3:focus, body .active\:deep-orange-lighten-3:active {
 	background-color: #ffab91 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-lighten-3 {
+body .deep-orange-text-lighten-3, body .hover\:deep-orange-text-lighten-3:hover, body .focus\:deep-orange-text-lighten-3:focus, body .active\:deep-orange-text-lighten-3:active {
 	color: #ffab91 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.lighten-2 {
+body .deep-orange-lighten-2, body .hover\:deep-orange-lighten-2:hover, body .focus\:deep-orange-lighten-2:focus, body .active\:deep-orange-lighten-2:active {
 	background-color: #ff8a65 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-lighten-2 {
+body .deep-orange-text-lighten-2, body .hover\:deep-orange-text-lighten-2:hover, body .focus\:deep-orange-text-lighten-2:focus, body .active\:deep-orange-text-lighten-2:active {
 	color: #ff8a65 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.lighten-1 {
+body .deep-orange-lighten-1, body .hover\:deep-orange-lighten-1:hover, body .focus\:deep-orange-lighten-1:focus, body .active\:deep-orange-lighten-1:active {
 	background-color: #ff7043 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-lighten-1 {
+body .deep-orange-text-lighten-1, body .hover\:deep-orange-text-lighten-1:hover, body .focus\:deep-orange-text-lighten-1:focus, body .active\:deep-orange-text-lighten-1:active {
 	color: #ff7043 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.darken-1 {
+body .deep-orange-darken-1, body .hover\:deep-orange-darken-1:hover, body .focus\:deep-orange-darken-1:focus, body .active\:deep-orange-darken-1:active {
 	background-color: #f4511e !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-darken-1 {
+body .deep-orange-text-darken-1, body .hover\:deep-orange-text-darken-1:hover, body .focus\:deep-orange-text-darken-1:focus, body .active\:deep-orange-text-darken-1:active {
 	color: #f4511e !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.darken-2 {
+body .deep-orange-darken-2, body .hover\:deep-orange-darken-2:hover, body .focus\:deep-orange-darken-2:focus, body .active\:deep-orange-darken-2:active {
 	background-color: #e64a19 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-darken-2 {
+body .deep-orange-text-darken-2, body .hover\:deep-orange-text-darken-2:hover, body .focus\:deep-orange-text-darken-2:focus, body .active\:deep-orange-text-darken-2:active {
 	color: #e64a19 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.darken-3 {
+body .deep-orange-darken-3, body .hover\:deep-orange-darken-3:hover, body .focus\:deep-orange-darken-3:focus, body .active\:deep-orange-darken-3:active {
 	background-color: #d84315 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-darken-3 {
+body .deep-orange-text-darken-3, body .hover\:deep-orange-text-darken-3:hover, body .focus\:deep-orange-text-darken-3:focus, body .active\:deep-orange-text-darken-3:active {
 	color: #d84315 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.darken-4 {
+body .deep-orange-darken-4, body .hover\:deep-orange-darken-4:hover, body .focus\:deep-orange-darken-4:focus, body .active\:deep-orange-darken-4:active {
 	background-color: #bf360c !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-darken-4 {
+body .deep-orange-text-darken-4, body .hover\:deep-orange-text-darken-4:hover, body .focus\:deep-orange-text-darken-4:focus, body .active\:deep-orange-text-darken-4:active {
 	color: #bf360c !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.accent-1 {
+body .deep-orange-accent-1, body .hover\:deep-orange-accent-1:hover, body .focus\:deep-orange-accent-1:focus, body .active\:deep-orange-accent-1:active {
 	background-color: #ff9e80 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-accent-1 {
+body .deep-orange-text-accent-1, body .hover\:deep-orange-text-accent-1:hover, body .focus\:deep-orange-text-accent-1:focus, body .active\:deep-orange-text-accent-1:active {
 	color: #ff9e80 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.accent-2 {
+body .deep-orange-accent-2, body .hover\:deep-orange-accent-2:hover, body .focus\:deep-orange-accent-2:focus, body .active\:deep-orange-accent-2:active {
 	background-color: #ff6e40 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-accent-2 {
+body .deep-orange-text-accent-2, body .hover\:deep-orange-text-accent-2:hover, body .focus\:deep-orange-text-accent-2:focus, body .active\:deep-orange-text-accent-2:active {
 	color: #ff6e40 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.accent-3 {
+body .deep-orange-accent-3, body .hover\:deep-orange-accent-3:hover, body .focus\:deep-orange-accent-3:focus, body .active\:deep-orange-accent-3:active {
 	background-color: #ff3d00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-accent-3 {
+body .deep-orange-text-accent-3, body .hover\:deep-orange-text-accent-3:hover, body .focus\:deep-orange-text-accent-3:focus, body .active\:deep-orange-text-accent-3:active {
 	color: #ff3d00 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.deep-orange.accent-4 {
+body .deep-orange-accent-4, body .hover\:deep-orange-accent-4:hover, body .focus\:deep-orange-accent-4:focus, body .active\:deep-orange-accent-4:active {
 	background-color: #dd2c00 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.deep-orange-text.text-accent-4 {
+body .deep-orange-text-accent-4, body .hover\:deep-orange-text-accent-4:hover, body .focus\:deep-orange-text-accent-4:focus, body .active\:deep-orange-text-accent-4:active {
 	color: #dd2c00 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.brown {
+body .brown, body .hover\:brown:hover, body .focus\:brown:focus, body .active\:brown:active {
 	background-color: #795548 !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.brown-text {
+body .brown-text, body .hover\:brown-text:hover, body .focus\:brown-text:focus, body .active\:brown-text:active {
 	color: #795548 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.brown.lighten-5 {
+body .brown-lighten-5, body .hover\:brown-lighten-5:hover, body .focus\:brown-lighten-5:focus, body .active\:brown-lighten-5:active {
 	background-color: #efebe9 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.brown-text.text-lighten-5 {
+body .brown-text-lighten-5, body .hover\:brown-text-lighten-5:hover, body .focus\:brown-text-lighten-5:focus, body .active\:brown-text-lighten-5:active {
 	color: #efebe9 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.brown.lighten-4 {
+body .brown-lighten-4, body .hover\:brown-lighten-4:hover, body .focus\:brown-lighten-4:focus, body .active\:brown-lighten-4:active {
 	background-color: #d7ccc8 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.brown-text.text-lighten-4 {
+body .brown-text-lighten-4, body .hover\:brown-text-lighten-4:hover, body .focus\:brown-text-lighten-4:focus, body .active\:brown-text-lighten-4:active {
 	color: #d7ccc8 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.brown.lighten-3 {
+body .brown-lighten-3, body .hover\:brown-lighten-3:hover, body .focus\:brown-lighten-3:focus, body .active\:brown-lighten-3:active {
 	background-color: #bcaaa4 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.brown-text.text-lighten-3 {
+body .brown-text-lighten-3, body .hover\:brown-text-lighten-3:hover, body .focus\:brown-text-lighten-3:focus, body .active\:brown-text-lighten-3:active {
 	color: #bcaaa4 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.brown.lighten-2 {
+body .brown-lighten-2, body .hover\:brown-lighten-2:hover, body .focus\:brown-lighten-2:focus, body .active\:brown-lighten-2:active {
 	background-color: #a1887f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.brown-text.text-lighten-2 {
+body .brown-text-lighten-2, body .hover\:brown-text-lighten-2:hover, body .focus\:brown-text-lighten-2:focus, body .active\:brown-text-lighten-2:active {
 	color: #a1887f !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.brown.lighten-1 {
+body .brown-lighten-1, body .hover\:brown-lighten-1:hover, body .focus\:brown-lighten-1:focus, body .active\:brown-lighten-1:active {
 	background-color: #8d6e63 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.brown-text.text-lighten-1 {
+body .brown-text-lighten-1, body .hover\:brown-text-lighten-1:hover, body .focus\:brown-text-lighten-1:focus, body .active\:brown-text-lighten-1:active {
 	color: #8d6e63 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.brown.darken-1 {
+body .brown-darken-1, body .hover\:brown-darken-1:hover, body .focus\:brown-darken-1:focus, body .active\:brown-darken-1:active {
 	background-color: #6d4c41 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.brown-text.text-darken-1 {
+body .brown-text-darken-1, body .hover\:brown-text-darken-1:hover, body .focus\:brown-text-darken-1:focus, body .active\:brown-text-darken-1:active {
 	color: #6d4c41 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.brown.darken-2 {
+body .brown-darken-2, body .hover\:brown-darken-2:hover, body .focus\:brown-darken-2:focus, body .active\:brown-darken-2:active {
 	background-color: #5d4037 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.brown-text.text-darken-2 {
+body .brown-text-darken-2, body .hover\:brown-text-darken-2:hover, body .focus\:brown-text-darken-2:focus, body .active\:brown-text-darken-2:active {
 	color: #5d4037 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.brown.darken-3 {
+body .brown-darken-3, body .hover\:brown-darken-3:hover, body .focus\:brown-darken-3:focus, body .active\:brown-darken-3:active {
 	background-color: #4e342e !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.brown-text.text-darken-3 {
+body .brown-text-darken-3, body .hover\:brown-text-darken-3:hover, body .focus\:brown-text-darken-3:focus, body .active\:brown-text-darken-3:active {
 	color: #4e342e !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.brown.darken-4 {
+body .brown-darken-4, body .hover\:brown-darken-4:hover, body .focus\:brown-darken-4:focus, body .active\:brown-darken-4:active {
 	background-color: #3e2723 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.brown-text.text-darken-4 {
+body .brown-text-darken-4, body .hover\:brown-text-darken-4:hover, body .focus\:brown-text-darken-4:focus, body .active\:brown-text-darken-4:active {
 	color: #3e2723 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.blue-grey {
+body .blue-grey, body .hover\:blue-grey:hover, body .focus\:blue-grey:focus, body .active\:blue-grey:active {
 	background-color: #607d8b !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.blue-grey-text {
+body .blue-grey-text, body .hover\:blue-grey-text:hover, body .focus\:blue-grey-text:focus, body .active\:blue-grey-text:active {
 	color: #607d8b !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue-grey.lighten-5 {
+body .blue-grey-lighten-5, body .hover\:blue-grey-lighten-5:hover, body .focus\:blue-grey-lighten-5:focus, body .active\:blue-grey-lighten-5:active {
 	background-color: #eceff1 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-grey-text.text-lighten-5 {
+body .blue-grey-text-lighten-5, body .hover\:blue-grey-text-lighten-5:hover, body .focus\:blue-grey-text-lighten-5:focus, body .active\:blue-grey-text-lighten-5:active {
 	color: #eceff1 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue-grey.lighten-4 {
+body .blue-grey-lighten-4, body .hover\:blue-grey-lighten-4:hover, body .focus\:blue-grey-lighten-4:focus, body .active\:blue-grey-lighten-4:active {
 	background-color: #cfd8dc !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-grey-text.text-lighten-4 {
+body .blue-grey-text-lighten-4, body .hover\:blue-grey-text-lighten-4:hover, body .focus\:blue-grey-text-lighten-4:focus, body .active\:blue-grey-text-lighten-4:active {
 	color: #cfd8dc !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue-grey.lighten-3 {
+body .blue-grey-lighten-3, body .hover\:blue-grey-lighten-3:hover, body .focus\:blue-grey-lighten-3:focus, body .active\:blue-grey-lighten-3:active {
 	background-color: #b0bec5 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-grey-text.text-lighten-3 {
+body .blue-grey-text-lighten-3, body .hover\:blue-grey-text-lighten-3:hover, body .focus\:blue-grey-text-lighten-3:focus, body .active\:blue-grey-text-lighten-3:active {
 	color: #b0bec5 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue-grey.lighten-2 {
+body .blue-grey-lighten-2, body .hover\:blue-grey-lighten-2:hover, body .focus\:blue-grey-lighten-2:focus, body .active\:blue-grey-lighten-2:active {
 	background-color: #90a4ae !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-grey-text.text-lighten-2 {
+body .blue-grey-text-lighten-2, body .hover\:blue-grey-text-lighten-2:hover, body .focus\:blue-grey-text-lighten-2:focus, body .active\:blue-grey-text-lighten-2:active {
 	color: #90a4ae !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue-grey.lighten-1 {
+body .blue-grey-lighten-1, body .hover\:blue-grey-lighten-1:hover, body .focus\:blue-grey-lighten-1:focus, body .active\:blue-grey-lighten-1:active {
 	background-color: #78909c !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-grey-text.text-lighten-1 {
+body .blue-grey-text-lighten-1, body .hover\:blue-grey-text-lighten-1:hover, body .focus\:blue-grey-text-lighten-1:focus, body .active\:blue-grey-text-lighten-1:active {
 	color: #78909c !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue-grey.darken-1 {
+body .blue-grey-darken-1, body .hover\:blue-grey-darken-1:hover, body .focus\:blue-grey-darken-1:focus, body .active\:blue-grey-darken-1:active {
 	background-color: #546e7a !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-grey-text.text-darken-1 {
+body .blue-grey-text-darken-1, body .hover\:blue-grey-text-darken-1:hover, body .focus\:blue-grey-text-darken-1:focus, body .active\:blue-grey-text-darken-1:active {
 	color: #546e7a !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue-grey.darken-2 {
+body .blue-grey-darken-2, body .hover\:blue-grey-darken-2:hover, body .focus\:blue-grey-darken-2:focus, body .active\:blue-grey-darken-2:active {
 	background-color: #455a64 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-grey-text.text-darken-2 {
+body .blue-grey-text-darken-2, body .hover\:blue-grey-text-darken-2:hover, body .focus\:blue-grey-text-darken-2:focus, body .active\:blue-grey-text-darken-2:active {
 	color: #455a64 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue-grey.darken-3 {
+body .blue-grey-darken-3, body .hover\:blue-grey-darken-3:hover, body .focus\:blue-grey-darken-3:focus, body .active\:blue-grey-darken-3:active {
 	background-color: #37474f !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-grey-text.text-darken-3 {
+body .blue-grey-text-darken-3, body .hover\:blue-grey-text-darken-3:hover, body .focus\:blue-grey-text-darken-3:focus, body .active\:blue-grey-text-darken-3:active {
 	color: #37474f !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.blue-grey.darken-4 {
+body .blue-grey-darken-4, body .hover\:blue-grey-darken-4:hover, body .focus\:blue-grey-darken-4:focus, body .active\:blue-grey-darken-4:active {
 	background-color: #263238 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.blue-grey-text.text-darken-4 {
+body .blue-grey-text-darken-4, body .hover\:blue-grey-text-darken-4:hover, body .focus\:blue-grey-text-darken-4:focus, body .active\:blue-grey-text-darken-4:active {
 	color: #263238 !important;
 }
-
-/* line 370, ../sass/components/_color.scss */
-.grey {
+body .grey, body .hover\:grey:hover, body .focus\:grey:focus, body .active\:grey:active {
 	background-color: #9e9e9e !important;
 }
-
-/* line 373, ../sass/components/_color.scss */
-.grey-text {
+body .grey-text, body .hover\:grey-text:hover, body .focus\:grey-text:focus, body .active\:grey-text:active {
 	color: #9e9e9e !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.grey.lighten-5 {
+body .grey-lighten-5, body .hover\:grey-lighten-5:hover, body .focus\:grey-lighten-5:focus, body .active\:grey-lighten-5:active {
 	background-color: #fafafa !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.grey-text.text-lighten-5 {
+body .grey-text-lighten-5, body .hover\:grey-text-lighten-5:hover, body .focus\:grey-text-lighten-5:focus, body .active\:grey-text-lighten-5:active {
 	color: #fafafa !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.grey.lighten-4 {
+body .grey-lighten-4, body .hover\:grey-lighten-4:hover, body .focus\:grey-lighten-4:focus, body .active\:grey-lighten-4:active {
 	background-color: #f5f5f5 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.grey-text.text-lighten-4 {
+body .grey-text-lighten-4, body .hover\:grey-text-lighten-4:hover, body .focus\:grey-text-lighten-4:focus, body .active\:grey-text-lighten-4:active {
 	color: #f5f5f5 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.grey.lighten-3 {
-	background-color: #eeeeee !important;
+body .grey-lighten-3, body .hover\:grey-lighten-3:hover, body .focus\:grey-lighten-3:focus, body .active\:grey-lighten-3:active {
+	background-color: #eee !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.grey-text.text-lighten-3 {
-	color: #eeeeee !important;
+body .grey-text-lighten-3, body .hover\:grey-text-lighten-3:hover, body .focus\:grey-text-lighten-3:focus, body .active\:grey-text-lighten-3:active {
+	color: #eee !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.grey.lighten-2 {
+body .grey-lighten-2, body .hover\:grey-lighten-2:hover, body .focus\:grey-lighten-2:focus, body .active\:grey-lighten-2:active {
 	background-color: #e0e0e0 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.grey-text.text-lighten-2 {
+body .grey-text-lighten-2, body .hover\:grey-text-lighten-2:hover, body .focus\:grey-text-lighten-2:focus, body .active\:grey-text-lighten-2:active {
 	color: #e0e0e0 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.grey.lighten-1 {
+body .grey-lighten-1, body .hover\:grey-lighten-1:hover, body .focus\:grey-lighten-1:focus, body .active\:grey-lighten-1:active {
 	background-color: #bdbdbd !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.grey-text.text-lighten-1 {
+body .grey-text-lighten-1, body .hover\:grey-text-lighten-1:hover, body .focus\:grey-text-lighten-1:focus, body .active\:grey-text-lighten-1:active {
 	color: #bdbdbd !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.grey.darken-1 {
+body .grey-darken-1, body .hover\:grey-darken-1:hover, body .focus\:grey-darken-1:focus, body .active\:grey-darken-1:active {
 	background-color: #757575 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.grey-text.text-darken-1 {
+body .grey-text-darken-1, body .hover\:grey-text-darken-1:hover, body .focus\:grey-text-darken-1:focus, body .active\:grey-text-darken-1:active {
 	color: #757575 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.grey.darken-2 {
+body .grey-darken-2, body .hover\:grey-darken-2:hover, body .focus\:grey-darken-2:focus, body .active\:grey-darken-2:active {
 	background-color: #616161 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.grey-text.text-darken-2 {
+body .grey-text-darken-2, body .hover\:grey-text-darken-2:hover, body .focus\:grey-text-darken-2:focus, body .active\:grey-text-darken-2:active {
 	color: #616161 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.grey.darken-3 {
+body .grey-darken-3, body .hover\:grey-darken-3:hover, body .focus\:grey-darken-3:focus, body .active\:grey-darken-3:active {
 	background-color: #424242 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.grey-text.text-darken-3 {
+body .grey-text-darken-3, body .hover\:grey-text-darken-3:hover, body .focus\:grey-text-darken-3:focus, body .active\:grey-text-darken-3:active {
 	color: #424242 !important;
 }
-
-/* line 378, ../sass/components/_color.scss */
-.grey.darken-4 {
+body .grey-darken-4, body .hover\:grey-darken-4:hover, body .focus\:grey-darken-4:focus, body .active\:grey-darken-4:active {
 	background-color: #212121 !important;
 }
-
-/* line 381, ../sass/components/_color.scss */
-.grey-text.text-darken-4 {
+body .grey-text-darken-4, body .hover\:grey-text-darken-4:hover, body .focus\:grey-text-darken-4:focus, body .active\:grey-text-darken-4:active {
 	color: #212121 !important;
 }
-
-/* line 390, ../sass/components/_color.scss */
-.black {
-	background-color: #000000 !important;
+body .black, body .hover\:black:hover, body .focus\:black:focus, body .active\:black:active {
+	background-color: #000 !important;
 }
-
-/* line 393, ../sass/components/_color.scss */
-.black-text {
-	color: #000000 !important;
+body .black-text, body .hover\:black-text:hover, body .focus\:black-text:focus, body .active\:black-text:active {
+	color: #000 !important;
 }
-
-/* line 390, ../sass/components/_color.scss */
-.white {
-	background-color: #ffffff !important;
+body .white, body .hover\:white:hover, body .focus\:white:focus, body .active\:white:active {
+	background-color: #fff !important;
 }
-
-/* line 393, ../sass/components/_color.scss */
-.white-text {
-	color: #ffffff !important;
+body .white-text, body .hover\:white-text:hover, body .focus\:white-text:focus, body .active\:white-text:active {
+	color: #fff !important;
 }
-
-/* line 390, ../sass/components/_color.scss */
-.transparent {
+body .transparent, body .hover\:transparent:hover, body .focus\:transparent:focus, body .active\:transparent:active {
 	background-color: transparent !important;
 }
-
-/* line 393, ../sass/components/_color.scss */
-.transparent-text {
+body .transparent-text, body .hover\:transparent-text:hover, body .focus\:transparent-text:focus, body .active\:transparent-text:active {
 	color: transparent !important;
+}
+body .red-border, body .hover\:red-border:hover, body .focus\:red-border:focus, body .active\:red-border:active {
+	border-color: #f44336 !important;
+}
+body .red-border-lighten-5, body .hover\:red-border-lighten-5:hover, body .focus\:red-border-lighten-5:focus, body .active\:red-border-lighten-5:active {
+	border-color: #ffebee !important;
+}
+body .red-border-lighten-4, body .hover\:red-border-lighten-4:hover, body .focus\:red-border-lighten-4:focus, body .active\:red-border-lighten-4:active {
+	border-color: #ffcdd2 !important;
+}
+body .red-border-lighten-3, body .hover\:red-border-lighten-3:hover, body .focus\:red-border-lighten-3:focus, body .active\:red-border-lighten-3:active {
+	border-color: #ef9a9a !important;
+}
+body .red-border-lighten-2, body .hover\:red-border-lighten-2:hover, body .focus\:red-border-lighten-2:focus, body .active\:red-border-lighten-2:active {
+	border-color: #e57373 !important;
+}
+body .red-border-lighten-1, body .hover\:red-border-lighten-1:hover, body .focus\:red-border-lighten-1:focus, body .active\:red-border-lighten-1:active {
+	border-color: #ef5350 !important;
+}
+body .red-border-darken-1, body .hover\:red-border-darken-1:hover, body .focus\:red-border-darken-1:focus, body .active\:red-border-darken-1:active {
+	border-color: #e53935 !important;
+}
+body .red-border-darken-2, body .hover\:red-border-darken-2:hover, body .focus\:red-border-darken-2:focus, body .active\:red-border-darken-2:active {
+	border-color: #d32f2f !important;
+}
+body .red-border-darken-3, body .hover\:red-border-darken-3:hover, body .focus\:red-border-darken-3:focus, body .active\:red-border-darken-3:active {
+	border-color: #c62828 !important;
+}
+body .red-border-darken-4, body .hover\:red-border-darken-4:hover, body .focus\:red-border-darken-4:focus, body .active\:red-border-darken-4:active {
+	border-color: #b71c1c !important;
+}
+body .red-border-accent-1, body .hover\:red-border-accent-1:hover, body .focus\:red-border-accent-1:focus, body .active\:red-border-accent-1:active {
+	border-color: #ff8a80 !important;
+}
+body .red-border-accent-2, body .hover\:red-border-accent-2:hover, body .focus\:red-border-accent-2:focus, body .active\:red-border-accent-2:active {
+	border-color: #ff5252 !important;
+}
+body .red-border-accent-3, body .hover\:red-border-accent-3:hover, body .focus\:red-border-accent-3:focus, body .active\:red-border-accent-3:active {
+	border-color: #ff1744 !important;
+}
+body .red-border-accent-4, body .hover\:red-border-accent-4:hover, body .focus\:red-border-accent-4:focus, body .active\:red-border-accent-4:active {
+	border-color: #d50000 !important;
+}
+body .pink-border, body .hover\:pink-border:hover, body .focus\:pink-border:focus, body .active\:pink-border:active {
+	border-color: #e91e63 !important;
+}
+body .pink-border-lighten-5, body .hover\:pink-border-lighten-5:hover, body .focus\:pink-border-lighten-5:focus, body .active\:pink-border-lighten-5:active {
+	border-color: #fce4ec !important;
+}
+body .pink-border-lighten-4, body .hover\:pink-border-lighten-4:hover, body .focus\:pink-border-lighten-4:focus, body .active\:pink-border-lighten-4:active {
+	border-color: #f8bbd0 !important;
+}
+body .pink-border-lighten-3, body .hover\:pink-border-lighten-3:hover, body .focus\:pink-border-lighten-3:focus, body .active\:pink-border-lighten-3:active {
+	border-color: #f48fb1 !important;
+}
+body .pink-border-lighten-2, body .hover\:pink-border-lighten-2:hover, body .focus\:pink-border-lighten-2:focus, body .active\:pink-border-lighten-2:active {
+	border-color: #f06292 !important;
+}
+body .pink-border-lighten-1, body .hover\:pink-border-lighten-1:hover, body .focus\:pink-border-lighten-1:focus, body .active\:pink-border-lighten-1:active {
+	border-color: #ec407a !important;
+}
+body .pink-border-darken-1, body .hover\:pink-border-darken-1:hover, body .focus\:pink-border-darken-1:focus, body .active\:pink-border-darken-1:active {
+	border-color: #d81b60 !important;
+}
+body .pink-border-darken-2, body .hover\:pink-border-darken-2:hover, body .focus\:pink-border-darken-2:focus, body .active\:pink-border-darken-2:active {
+	border-color: #c2185b !important;
+}
+body .pink-border-darken-3, body .hover\:pink-border-darken-3:hover, body .focus\:pink-border-darken-3:focus, body .active\:pink-border-darken-3:active {
+	border-color: #ad1457 !important;
+}
+body .pink-border-darken-4, body .hover\:pink-border-darken-4:hover, body .focus\:pink-border-darken-4:focus, body .active\:pink-border-darken-4:active {
+	border-color: #880e4f !important;
+}
+body .pink-border-accent-1, body .hover\:pink-border-accent-1:hover, body .focus\:pink-border-accent-1:focus, body .active\:pink-border-accent-1:active {
+	border-color: #ff80ab !important;
+}
+body .pink-border-accent-2, body .hover\:pink-border-accent-2:hover, body .focus\:pink-border-accent-2:focus, body .active\:pink-border-accent-2:active {
+	border-color: #ff4081 !important;
+}
+body .pink-border-accent-3, body .hover\:pink-border-accent-3:hover, body .focus\:pink-border-accent-3:focus, body .active\:pink-border-accent-3:active {
+	border-color: #f50057 !important;
+}
+body .pink-border-accent-4, body .hover\:pink-border-accent-4:hover, body .focus\:pink-border-accent-4:focus, body .active\:pink-border-accent-4:active {
+	border-color: #c51162 !important;
+}
+body .purple-border, body .hover\:purple-border:hover, body .focus\:purple-border:focus, body .active\:purple-border:active {
+	border-color: #9c27b0 !important;
+}
+body .purple-border-lighten-5, body .hover\:purple-border-lighten-5:hover, body .focus\:purple-border-lighten-5:focus, body .active\:purple-border-lighten-5:active {
+	border-color: #f3e5f5 !important;
+}
+body .purple-border-lighten-4, body .hover\:purple-border-lighten-4:hover, body .focus\:purple-border-lighten-4:focus, body .active\:purple-border-lighten-4:active {
+	border-color: #e1bee7 !important;
+}
+body .purple-border-lighten-3, body .hover\:purple-border-lighten-3:hover, body .focus\:purple-border-lighten-3:focus, body .active\:purple-border-lighten-3:active {
+	border-color: #ce93d8 !important;
+}
+body .purple-border-lighten-2, body .hover\:purple-border-lighten-2:hover, body .focus\:purple-border-lighten-2:focus, body .active\:purple-border-lighten-2:active {
+	border-color: #ba68c8 !important;
+}
+body .purple-border-lighten-1, body .hover\:purple-border-lighten-1:hover, body .focus\:purple-border-lighten-1:focus, body .active\:purple-border-lighten-1:active {
+	border-color: #ab47bc !important;
+}
+body .purple-border-darken-1, body .hover\:purple-border-darken-1:hover, body .focus\:purple-border-darken-1:focus, body .active\:purple-border-darken-1:active {
+	border-color: #8e24aa !important;
+}
+body .purple-border-darken-2, body .hover\:purple-border-darken-2:hover, body .focus\:purple-border-darken-2:focus, body .active\:purple-border-darken-2:active {
+	border-color: #7b1fa2 !important;
+}
+body .purple-border-darken-3, body .hover\:purple-border-darken-3:hover, body .focus\:purple-border-darken-3:focus, body .active\:purple-border-darken-3:active {
+	border-color: #6a1b9a !important;
+}
+body .purple-border-darken-4, body .hover\:purple-border-darken-4:hover, body .focus\:purple-border-darken-4:focus, body .active\:purple-border-darken-4:active {
+	border-color: #4a148c !important;
+}
+body .purple-border-accent-1, body .hover\:purple-border-accent-1:hover, body .focus\:purple-border-accent-1:focus, body .active\:purple-border-accent-1:active {
+	border-color: #ea80fc !important;
+}
+body .purple-border-accent-2, body .hover\:purple-border-accent-2:hover, body .focus\:purple-border-accent-2:focus, body .active\:purple-border-accent-2:active {
+	border-color: #e040fb !important;
+}
+body .purple-border-accent-3, body .hover\:purple-border-accent-3:hover, body .focus\:purple-border-accent-3:focus, body .active\:purple-border-accent-3:active {
+	border-color: #d500f9 !important;
+}
+body .purple-border-accent-4, body .hover\:purple-border-accent-4:hover, body .focus\:purple-border-accent-4:focus, body .active\:purple-border-accent-4:active {
+	border-color: #a0f !important;
+}
+body .deep-purple-border, body .hover\:deep-purple-border:hover, body .focus\:deep-purple-border:focus, body .active\:deep-purple-border:active {
+	border-color: #673ab7 !important;
+}
+body .deep-purple-border-lighten-5, body .hover\:deep-purple-border-lighten-5:hover, body .focus\:deep-purple-border-lighten-5:focus, body .active\:deep-purple-border-lighten-5:active {
+	border-color: #ede7f6 !important;
+}
+body .deep-purple-border-lighten-4, body .hover\:deep-purple-border-lighten-4:hover, body .focus\:deep-purple-border-lighten-4:focus, body .active\:deep-purple-border-lighten-4:active {
+	border-color: #d1c4e9 !important;
+}
+body .deep-purple-border-lighten-3, body .hover\:deep-purple-border-lighten-3:hover, body .focus\:deep-purple-border-lighten-3:focus, body .active\:deep-purple-border-lighten-3:active {
+	border-color: #b39ddb !important;
+}
+body .deep-purple-border-lighten-2, body .hover\:deep-purple-border-lighten-2:hover, body .focus\:deep-purple-border-lighten-2:focus, body .active\:deep-purple-border-lighten-2:active {
+	border-color: #9575cd !important;
+}
+body .deep-purple-border-lighten-1, body .hover\:deep-purple-border-lighten-1:hover, body .focus\:deep-purple-border-lighten-1:focus, body .active\:deep-purple-border-lighten-1:active {
+	border-color: #7e57c2 !important;
+}
+body .deep-purple-border-darken-1, body .hover\:deep-purple-border-darken-1:hover, body .focus\:deep-purple-border-darken-1:focus, body .active\:deep-purple-border-darken-1:active {
+	border-color: #5e35b1 !important;
+}
+body .deep-purple-border-darken-2, body .hover\:deep-purple-border-darken-2:hover, body .focus\:deep-purple-border-darken-2:focus, body .active\:deep-purple-border-darken-2:active {
+	border-color: #512da8 !important;
+}
+body .deep-purple-border-darken-3, body .hover\:deep-purple-border-darken-3:hover, body .focus\:deep-purple-border-darken-3:focus, body .active\:deep-purple-border-darken-3:active {
+	border-color: #4527a0 !important;
+}
+body .deep-purple-border-darken-4, body .hover\:deep-purple-border-darken-4:hover, body .focus\:deep-purple-border-darken-4:focus, body .active\:deep-purple-border-darken-4:active {
+	border-color: #311b92 !important;
+}
+body .deep-purple-border-accent-1, body .hover\:deep-purple-border-accent-1:hover, body .focus\:deep-purple-border-accent-1:focus, body .active\:deep-purple-border-accent-1:active {
+	border-color: #b388ff !important;
+}
+body .deep-purple-border-accent-2, body .hover\:deep-purple-border-accent-2:hover, body .focus\:deep-purple-border-accent-2:focus, body .active\:deep-purple-border-accent-2:active {
+	border-color: #7c4dff !important;
+}
+body .deep-purple-border-accent-3, body .hover\:deep-purple-border-accent-3:hover, body .focus\:deep-purple-border-accent-3:focus, body .active\:deep-purple-border-accent-3:active {
+	border-color: #651fff !important;
+}
+body .deep-purple-border-accent-4, body .hover\:deep-purple-border-accent-4:hover, body .focus\:deep-purple-border-accent-4:focus, body .active\:deep-purple-border-accent-4:active {
+	border-color: #6200ea !important;
+}
+body .indigo-border, body .hover\:indigo-border:hover, body .focus\:indigo-border:focus, body .active\:indigo-border:active {
+	border-color: #3f51b5 !important;
+}
+body .indigo-border-lighten-5, body .hover\:indigo-border-lighten-5:hover, body .focus\:indigo-border-lighten-5:focus, body .active\:indigo-border-lighten-5:active {
+	border-color: #e8eaf6 !important;
+}
+body .indigo-border-lighten-4, body .hover\:indigo-border-lighten-4:hover, body .focus\:indigo-border-lighten-4:focus, body .active\:indigo-border-lighten-4:active {
+	border-color: #c5cae9 !important;
+}
+body .indigo-border-lighten-3, body .hover\:indigo-border-lighten-3:hover, body .focus\:indigo-border-lighten-3:focus, body .active\:indigo-border-lighten-3:active {
+	border-color: #9fa8da !important;
+}
+body .indigo-border-lighten-2, body .hover\:indigo-border-lighten-2:hover, body .focus\:indigo-border-lighten-2:focus, body .active\:indigo-border-lighten-2:active {
+	border-color: #7986cb !important;
+}
+body .indigo-border-lighten-1, body .hover\:indigo-border-lighten-1:hover, body .focus\:indigo-border-lighten-1:focus, body .active\:indigo-border-lighten-1:active {
+	border-color: #5c6bc0 !important;
+}
+body .indigo-border-darken-1, body .hover\:indigo-border-darken-1:hover, body .focus\:indigo-border-darken-1:focus, body .active\:indigo-border-darken-1:active {
+	border-color: #3949ab !important;
+}
+body .indigo-border-darken-2, body .hover\:indigo-border-darken-2:hover, body .focus\:indigo-border-darken-2:focus, body .active\:indigo-border-darken-2:active {
+	border-color: #303f9f !important;
+}
+body .indigo-border-darken-3, body .hover\:indigo-border-darken-3:hover, body .focus\:indigo-border-darken-3:focus, body .active\:indigo-border-darken-3:active {
+	border-color: #283593 !important;
+}
+body .indigo-border-darken-4, body .hover\:indigo-border-darken-4:hover, body .focus\:indigo-border-darken-4:focus, body .active\:indigo-border-darken-4:active {
+	border-color: #1a237e !important;
+}
+body .indigo-border-accent-1, body .hover\:indigo-border-accent-1:hover, body .focus\:indigo-border-accent-1:focus, body .active\:indigo-border-accent-1:active {
+	border-color: #8c9eff !important;
+}
+body .indigo-border-accent-2, body .hover\:indigo-border-accent-2:hover, body .focus\:indigo-border-accent-2:focus, body .active\:indigo-border-accent-2:active {
+	border-color: #536dfe !important;
+}
+body .indigo-border-accent-3, body .hover\:indigo-border-accent-3:hover, body .focus\:indigo-border-accent-3:focus, body .active\:indigo-border-accent-3:active {
+	border-color: #3d5afe !important;
+}
+body .indigo-border-accent-4, body .hover\:indigo-border-accent-4:hover, body .focus\:indigo-border-accent-4:focus, body .active\:indigo-border-accent-4:active {
+	border-color: #304ffe !important;
+}
+body .blue-border, body .hover\:blue-border:hover, body .focus\:blue-border:focus, body .active\:blue-border:active {
+	border-color: #2196f3 !important;
+}
+body .blue-border-lighten-5, body .hover\:blue-border-lighten-5:hover, body .focus\:blue-border-lighten-5:focus, body .active\:blue-border-lighten-5:active {
+	border-color: #e3f2fd !important;
+}
+body .blue-border-lighten-4, body .hover\:blue-border-lighten-4:hover, body .focus\:blue-border-lighten-4:focus, body .active\:blue-border-lighten-4:active {
+	border-color: #bbdefb !important;
+}
+body .blue-border-lighten-3, body .hover\:blue-border-lighten-3:hover, body .focus\:blue-border-lighten-3:focus, body .active\:blue-border-lighten-3:active {
+	border-color: #90caf9 !important;
+}
+body .blue-border-lighten-2, body .hover\:blue-border-lighten-2:hover, body .focus\:blue-border-lighten-2:focus, body .active\:blue-border-lighten-2:active {
+	border-color: #64b5f6 !important;
+}
+body .blue-border-lighten-1, body .hover\:blue-border-lighten-1:hover, body .focus\:blue-border-lighten-1:focus, body .active\:blue-border-lighten-1:active {
+	border-color: #42a5f5 !important;
+}
+body .blue-border-darken-1, body .hover\:blue-border-darken-1:hover, body .focus\:blue-border-darken-1:focus, body .active\:blue-border-darken-1:active {
+	border-color: #1e88e5 !important;
+}
+body .blue-border-darken-2, body .hover\:blue-border-darken-2:hover, body .focus\:blue-border-darken-2:focus, body .active\:blue-border-darken-2:active {
+	border-color: #1976d2 !important;
+}
+body .blue-border-darken-3, body .hover\:blue-border-darken-3:hover, body .focus\:blue-border-darken-3:focus, body .active\:blue-border-darken-3:active {
+	border-color: #1565c0 !important;
+}
+body .blue-border-darken-4, body .hover\:blue-border-darken-4:hover, body .focus\:blue-border-darken-4:focus, body .active\:blue-border-darken-4:active {
+	border-color: #0d47a1 !important;
+}
+body .blue-border-accent-1, body .hover\:blue-border-accent-1:hover, body .focus\:blue-border-accent-1:focus, body .active\:blue-border-accent-1:active {
+	border-color: #82b1ff !important;
+}
+body .blue-border-accent-2, body .hover\:blue-border-accent-2:hover, body .focus\:blue-border-accent-2:focus, body .active\:blue-border-accent-2:active {
+	border-color: #448aff !important;
+}
+body .blue-border-accent-3, body .hover\:blue-border-accent-3:hover, body .focus\:blue-border-accent-3:focus, body .active\:blue-border-accent-3:active {
+	border-color: #2979ff !important;
+}
+body .blue-border-accent-4, body .hover\:blue-border-accent-4:hover, body .focus\:blue-border-accent-4:focus, body .active\:blue-border-accent-4:active {
+	border-color: #2962ff !important;
+}
+body .light-blue-border, body .hover\:light-blue-border:hover, body .focus\:light-blue-border:focus, body .active\:light-blue-border:active {
+	border-color: #03a9f4 !important;
+}
+body .light-blue-border-lighten-5, body .hover\:light-blue-border-lighten-5:hover, body .focus\:light-blue-border-lighten-5:focus, body .active\:light-blue-border-lighten-5:active {
+	border-color: #e1f5fe !important;
+}
+body .light-blue-border-lighten-4, body .hover\:light-blue-border-lighten-4:hover, body .focus\:light-blue-border-lighten-4:focus, body .active\:light-blue-border-lighten-4:active {
+	border-color: #b3e5fc !important;
+}
+body .light-blue-border-lighten-3, body .hover\:light-blue-border-lighten-3:hover, body .focus\:light-blue-border-lighten-3:focus, body .active\:light-blue-border-lighten-3:active {
+	border-color: #81d4fa !important;
+}
+body .light-blue-border-lighten-2, body .hover\:light-blue-border-lighten-2:hover, body .focus\:light-blue-border-lighten-2:focus, body .active\:light-blue-border-lighten-2:active {
+	border-color: #4fc3f7 !important;
+}
+body .light-blue-border-lighten-1, body .hover\:light-blue-border-lighten-1:hover, body .focus\:light-blue-border-lighten-1:focus, body .active\:light-blue-border-lighten-1:active {
+	border-color: #29b6f6 !important;
+}
+body .light-blue-border-darken-1, body .hover\:light-blue-border-darken-1:hover, body .focus\:light-blue-border-darken-1:focus, body .active\:light-blue-border-darken-1:active {
+	border-color: #039be5 !important;
+}
+body .light-blue-border-darken-2, body .hover\:light-blue-border-darken-2:hover, body .focus\:light-blue-border-darken-2:focus, body .active\:light-blue-border-darken-2:active {
+	border-color: #0288d1 !important;
+}
+body .light-blue-border-darken-3, body .hover\:light-blue-border-darken-3:hover, body .focus\:light-blue-border-darken-3:focus, body .active\:light-blue-border-darken-3:active {
+	border-color: #0277bd !important;
+}
+body .light-blue-border-darken-4, body .hover\:light-blue-border-darken-4:hover, body .focus\:light-blue-border-darken-4:focus, body .active\:light-blue-border-darken-4:active {
+	border-color: #01579b !important;
+}
+body .light-blue-border-accent-1, body .hover\:light-blue-border-accent-1:hover, body .focus\:light-blue-border-accent-1:focus, body .active\:light-blue-border-accent-1:active {
+	border-color: #80d8ff !important;
+}
+body .light-blue-border-accent-2, body .hover\:light-blue-border-accent-2:hover, body .focus\:light-blue-border-accent-2:focus, body .active\:light-blue-border-accent-2:active {
+	border-color: #40c4ff !important;
+}
+body .light-blue-border-accent-3, body .hover\:light-blue-border-accent-3:hover, body .focus\:light-blue-border-accent-3:focus, body .active\:light-blue-border-accent-3:active {
+	border-color: #00b0ff !important;
+}
+body .light-blue-border-accent-4, body .hover\:light-blue-border-accent-4:hover, body .focus\:light-blue-border-accent-4:focus, body .active\:light-blue-border-accent-4:active {
+	border-color: #0091ea !important;
+}
+body .cyan-border, body .hover\:cyan-border:hover, body .focus\:cyan-border:focus, body .active\:cyan-border:active {
+	border-color: #00bcd4 !important;
+}
+body .cyan-border-lighten-5, body .hover\:cyan-border-lighten-5:hover, body .focus\:cyan-border-lighten-5:focus, body .active\:cyan-border-lighten-5:active {
+	border-color: #e0f7fa !important;
+}
+body .cyan-border-lighten-4, body .hover\:cyan-border-lighten-4:hover, body .focus\:cyan-border-lighten-4:focus, body .active\:cyan-border-lighten-4:active {
+	border-color: #b2ebf2 !important;
+}
+body .cyan-border-lighten-3, body .hover\:cyan-border-lighten-3:hover, body .focus\:cyan-border-lighten-3:focus, body .active\:cyan-border-lighten-3:active {
+	border-color: #80deea !important;
+}
+body .cyan-border-lighten-2, body .hover\:cyan-border-lighten-2:hover, body .focus\:cyan-border-lighten-2:focus, body .active\:cyan-border-lighten-2:active {
+	border-color: #4dd0e1 !important;
+}
+body .cyan-border-lighten-1, body .hover\:cyan-border-lighten-1:hover, body .focus\:cyan-border-lighten-1:focus, body .active\:cyan-border-lighten-1:active {
+	border-color: #26c6da !important;
+}
+body .cyan-border-darken-1, body .hover\:cyan-border-darken-1:hover, body .focus\:cyan-border-darken-1:focus, body .active\:cyan-border-darken-1:active {
+	border-color: #00acc1 !important;
+}
+body .cyan-border-darken-2, body .hover\:cyan-border-darken-2:hover, body .focus\:cyan-border-darken-2:focus, body .active\:cyan-border-darken-2:active {
+	border-color: #0097a7 !important;
+}
+body .cyan-border-darken-3, body .hover\:cyan-border-darken-3:hover, body .focus\:cyan-border-darken-3:focus, body .active\:cyan-border-darken-3:active {
+	border-color: #00838f !important;
+}
+body .cyan-border-darken-4, body .hover\:cyan-border-darken-4:hover, body .focus\:cyan-border-darken-4:focus, body .active\:cyan-border-darken-4:active {
+	border-color: #006064 !important;
+}
+body .cyan-border-accent-1, body .hover\:cyan-border-accent-1:hover, body .focus\:cyan-border-accent-1:focus, body .active\:cyan-border-accent-1:active {
+	border-color: #84ffff !important;
+}
+body .cyan-border-accent-2, body .hover\:cyan-border-accent-2:hover, body .focus\:cyan-border-accent-2:focus, body .active\:cyan-border-accent-2:active {
+	border-color: #18ffff !important;
+}
+body .cyan-border-accent-3, body .hover\:cyan-border-accent-3:hover, body .focus\:cyan-border-accent-3:focus, body .active\:cyan-border-accent-3:active {
+	border-color: #00e5ff !important;
+}
+body .cyan-border-accent-4, body .hover\:cyan-border-accent-4:hover, body .focus\:cyan-border-accent-4:focus, body .active\:cyan-border-accent-4:active {
+	border-color: #00b8d4 !important;
+}
+body .teal-border, body .hover\:teal-border:hover, body .focus\:teal-border:focus, body .active\:teal-border:active {
+	border-color: #009688 !important;
+}
+body .teal-border-lighten-5, body .hover\:teal-border-lighten-5:hover, body .focus\:teal-border-lighten-5:focus, body .active\:teal-border-lighten-5:active {
+	border-color: #e0f2f1 !important;
+}
+body .teal-border-lighten-4, body .hover\:teal-border-lighten-4:hover, body .focus\:teal-border-lighten-4:focus, body .active\:teal-border-lighten-4:active {
+	border-color: #b2dfdb !important;
+}
+body .teal-border-lighten-3, body .hover\:teal-border-lighten-3:hover, body .focus\:teal-border-lighten-3:focus, body .active\:teal-border-lighten-3:active {
+	border-color: #80cbc4 !important;
+}
+body .teal-border-lighten-2, body .hover\:teal-border-lighten-2:hover, body .focus\:teal-border-lighten-2:focus, body .active\:teal-border-lighten-2:active {
+	border-color: #4db6ac !important;
+}
+body .teal-border-lighten-1, body .hover\:teal-border-lighten-1:hover, body .focus\:teal-border-lighten-1:focus, body .active\:teal-border-lighten-1:active {
+	border-color: #26a69a !important;
+}
+body .teal-border-darken-1, body .hover\:teal-border-darken-1:hover, body .focus\:teal-border-darken-1:focus, body .active\:teal-border-darken-1:active {
+	border-color: #00897b !important;
+}
+body .teal-border-darken-2, body .hover\:teal-border-darken-2:hover, body .focus\:teal-border-darken-2:focus, body .active\:teal-border-darken-2:active {
+	border-color: #00796b !important;
+}
+body .teal-border-darken-3, body .hover\:teal-border-darken-3:hover, body .focus\:teal-border-darken-3:focus, body .active\:teal-border-darken-3:active {
+	border-color: #00695c !important;
+}
+body .teal-border-darken-4, body .hover\:teal-border-darken-4:hover, body .focus\:teal-border-darken-4:focus, body .active\:teal-border-darken-4:active {
+	border-color: #004d40 !important;
+}
+body .teal-border-accent-1, body .hover\:teal-border-accent-1:hover, body .focus\:teal-border-accent-1:focus, body .active\:teal-border-accent-1:active {
+	border-color: #a7ffeb !important;
+}
+body .teal-border-accent-2, body .hover\:teal-border-accent-2:hover, body .focus\:teal-border-accent-2:focus, body .active\:teal-border-accent-2:active {
+	border-color: #64ffda !important;
+}
+body .teal-border-accent-3, body .hover\:teal-border-accent-3:hover, body .focus\:teal-border-accent-3:focus, body .active\:teal-border-accent-3:active {
+	border-color: #1de9b6 !important;
+}
+body .teal-border-accent-4, body .hover\:teal-border-accent-4:hover, body .focus\:teal-border-accent-4:focus, body .active\:teal-border-accent-4:active {
+	border-color: #00bfa5 !important;
+}
+body .green-border, body .hover\:green-border:hover, body .focus\:green-border:focus, body .active\:green-border:active {
+	border-color: #4caf50 !important;
+}
+body .green-border-lighten-5, body .hover\:green-border-lighten-5:hover, body .focus\:green-border-lighten-5:focus, body .active\:green-border-lighten-5:active {
+	border-color: #e8f5e9 !important;
+}
+body .green-border-lighten-4, body .hover\:green-border-lighten-4:hover, body .focus\:green-border-lighten-4:focus, body .active\:green-border-lighten-4:active {
+	border-color: #c8e6c9 !important;
+}
+body .green-border-lighten-3, body .hover\:green-border-lighten-3:hover, body .focus\:green-border-lighten-3:focus, body .active\:green-border-lighten-3:active {
+	border-color: #a5d6a7 !important;
+}
+body .green-border-lighten-2, body .hover\:green-border-lighten-2:hover, body .focus\:green-border-lighten-2:focus, body .active\:green-border-lighten-2:active {
+	border-color: #81c784 !important;
+}
+body .green-border-lighten-1, body .hover\:green-border-lighten-1:hover, body .focus\:green-border-lighten-1:focus, body .active\:green-border-lighten-1:active {
+	border-color: #66bb6a !important;
+}
+body .green-border-darken-1, body .hover\:green-border-darken-1:hover, body .focus\:green-border-darken-1:focus, body .active\:green-border-darken-1:active {
+	border-color: #43a047 !important;
+}
+body .green-border-darken-2, body .hover\:green-border-darken-2:hover, body .focus\:green-border-darken-2:focus, body .active\:green-border-darken-2:active {
+	border-color: #388e3c !important;
+}
+body .green-border-darken-3, body .hover\:green-border-darken-3:hover, body .focus\:green-border-darken-3:focus, body .active\:green-border-darken-3:active {
+	border-color: #2e7d32 !important;
+}
+body .green-border-darken-4, body .hover\:green-border-darken-4:hover, body .focus\:green-border-darken-4:focus, body .active\:green-border-darken-4:active {
+	border-color: #1b5e20 !important;
+}
+body .green-border-accent-1, body .hover\:green-border-accent-1:hover, body .focus\:green-border-accent-1:focus, body .active\:green-border-accent-1:active {
+	border-color: #b9f6ca !important;
+}
+body .green-border-accent-2, body .hover\:green-border-accent-2:hover, body .focus\:green-border-accent-2:focus, body .active\:green-border-accent-2:active {
+	border-color: #69f0ae !important;
+}
+body .green-border-accent-3, body .hover\:green-border-accent-3:hover, body .focus\:green-border-accent-3:focus, body .active\:green-border-accent-3:active {
+	border-color: #00e676 !important;
+}
+body .green-border-accent-4, body .hover\:green-border-accent-4:hover, body .focus\:green-border-accent-4:focus, body .active\:green-border-accent-4:active {
+	border-color: #00c853 !important;
+}
+body .light-green-border, body .hover\:light-green-border:hover, body .focus\:light-green-border:focus, body .active\:light-green-border:active {
+	border-color: #8bc34a !important;
+}
+body .light-green-border-lighten-5, body .hover\:light-green-border-lighten-5:hover, body .focus\:light-green-border-lighten-5:focus, body .active\:light-green-border-lighten-5:active {
+	border-color: #f1f8e9 !important;
+}
+body .light-green-border-lighten-4, body .hover\:light-green-border-lighten-4:hover, body .focus\:light-green-border-lighten-4:focus, body .active\:light-green-border-lighten-4:active {
+	border-color: #dcedc8 !important;
+}
+body .light-green-border-lighten-3, body .hover\:light-green-border-lighten-3:hover, body .focus\:light-green-border-lighten-3:focus, body .active\:light-green-border-lighten-3:active {
+	border-color: #c5e1a5 !important;
+}
+body .light-green-border-lighten-2, body .hover\:light-green-border-lighten-2:hover, body .focus\:light-green-border-lighten-2:focus, body .active\:light-green-border-lighten-2:active {
+	border-color: #aed581 !important;
+}
+body .light-green-border-lighten-1, body .hover\:light-green-border-lighten-1:hover, body .focus\:light-green-border-lighten-1:focus, body .active\:light-green-border-lighten-1:active {
+	border-color: #9ccc65 !important;
+}
+body .light-green-border-darken-1, body .hover\:light-green-border-darken-1:hover, body .focus\:light-green-border-darken-1:focus, body .active\:light-green-border-darken-1:active {
+	border-color: #7cb342 !important;
+}
+body .light-green-border-darken-2, body .hover\:light-green-border-darken-2:hover, body .focus\:light-green-border-darken-2:focus, body .active\:light-green-border-darken-2:active {
+	border-color: #689f38 !important;
+}
+body .light-green-border-darken-3, body .hover\:light-green-border-darken-3:hover, body .focus\:light-green-border-darken-3:focus, body .active\:light-green-border-darken-3:active {
+	border-color: #558b2f !important;
+}
+body .light-green-border-darken-4, body .hover\:light-green-border-darken-4:hover, body .focus\:light-green-border-darken-4:focus, body .active\:light-green-border-darken-4:active {
+	border-color: #33691e !important;
+}
+body .light-green-border-accent-1, body .hover\:light-green-border-accent-1:hover, body .focus\:light-green-border-accent-1:focus, body .active\:light-green-border-accent-1:active {
+	border-color: #ccff90 !important;
+}
+body .light-green-border-accent-2, body .hover\:light-green-border-accent-2:hover, body .focus\:light-green-border-accent-2:focus, body .active\:light-green-border-accent-2:active {
+	border-color: #b2ff59 !important;
+}
+body .light-green-border-accent-3, body .hover\:light-green-border-accent-3:hover, body .focus\:light-green-border-accent-3:focus, body .active\:light-green-border-accent-3:active {
+	border-color: #76ff03 !important;
+}
+body .light-green-border-accent-4, body .hover\:light-green-border-accent-4:hover, body .focus\:light-green-border-accent-4:focus, body .active\:light-green-border-accent-4:active {
+	border-color: #64dd17 !important;
+}
+body .lime-border, body .hover\:lime-border:hover, body .focus\:lime-border:focus, body .active\:lime-border:active {
+	border-color: #cddc39 !important;
+}
+body .lime-border-lighten-5, body .hover\:lime-border-lighten-5:hover, body .focus\:lime-border-lighten-5:focus, body .active\:lime-border-lighten-5:active {
+	border-color: #f9fbe7 !important;
+}
+body .lime-border-lighten-4, body .hover\:lime-border-lighten-4:hover, body .focus\:lime-border-lighten-4:focus, body .active\:lime-border-lighten-4:active {
+	border-color: #f0f4c3 !important;
+}
+body .lime-border-lighten-3, body .hover\:lime-border-lighten-3:hover, body .focus\:lime-border-lighten-3:focus, body .active\:lime-border-lighten-3:active {
+	border-color: #e6ee9c !important;
+}
+body .lime-border-lighten-2, body .hover\:lime-border-lighten-2:hover, body .focus\:lime-border-lighten-2:focus, body .active\:lime-border-lighten-2:active {
+	border-color: #dce775 !important;
+}
+body .lime-border-lighten-1, body .hover\:lime-border-lighten-1:hover, body .focus\:lime-border-lighten-1:focus, body .active\:lime-border-lighten-1:active {
+	border-color: #d4e157 !important;
+}
+body .lime-border-darken-1, body .hover\:lime-border-darken-1:hover, body .focus\:lime-border-darken-1:focus, body .active\:lime-border-darken-1:active {
+	border-color: #c0ca33 !important;
+}
+body .lime-border-darken-2, body .hover\:lime-border-darken-2:hover, body .focus\:lime-border-darken-2:focus, body .active\:lime-border-darken-2:active {
+	border-color: #afb42b !important;
+}
+body .lime-border-darken-3, body .hover\:lime-border-darken-3:hover, body .focus\:lime-border-darken-3:focus, body .active\:lime-border-darken-3:active {
+	border-color: #9e9d24 !important;
+}
+body .lime-border-darken-4, body .hover\:lime-border-darken-4:hover, body .focus\:lime-border-darken-4:focus, body .active\:lime-border-darken-4:active {
+	border-color: #827717 !important;
+}
+body .lime-border-accent-1, body .hover\:lime-border-accent-1:hover, body .focus\:lime-border-accent-1:focus, body .active\:lime-border-accent-1:active {
+	border-color: #f4ff81 !important;
+}
+body .lime-border-accent-2, body .hover\:lime-border-accent-2:hover, body .focus\:lime-border-accent-2:focus, body .active\:lime-border-accent-2:active {
+	border-color: #eeff41 !important;
+}
+body .lime-border-accent-3, body .hover\:lime-border-accent-3:hover, body .focus\:lime-border-accent-3:focus, body .active\:lime-border-accent-3:active {
+	border-color: #c6ff00 !important;
+}
+body .lime-border-accent-4, body .hover\:lime-border-accent-4:hover, body .focus\:lime-border-accent-4:focus, body .active\:lime-border-accent-4:active {
+	border-color: #aeea00 !important;
+}
+body .yellow-border, body .hover\:yellow-border:hover, body .focus\:yellow-border:focus, body .active\:yellow-border:active {
+	border-color: #ffeb3b !important;
+}
+body .yellow-border-lighten-5, body .hover\:yellow-border-lighten-5:hover, body .focus\:yellow-border-lighten-5:focus, body .active\:yellow-border-lighten-5:active {
+	border-color: #fffde7 !important;
+}
+body .yellow-border-lighten-4, body .hover\:yellow-border-lighten-4:hover, body .focus\:yellow-border-lighten-4:focus, body .active\:yellow-border-lighten-4:active {
+	border-color: #fff9c4 !important;
+}
+body .yellow-border-lighten-3, body .hover\:yellow-border-lighten-3:hover, body .focus\:yellow-border-lighten-3:focus, body .active\:yellow-border-lighten-3:active {
+	border-color: #fff59d !important;
+}
+body .yellow-border-lighten-2, body .hover\:yellow-border-lighten-2:hover, body .focus\:yellow-border-lighten-2:focus, body .active\:yellow-border-lighten-2:active {
+	border-color: #fff176 !important;
+}
+body .yellow-border-lighten-1, body .hover\:yellow-border-lighten-1:hover, body .focus\:yellow-border-lighten-1:focus, body .active\:yellow-border-lighten-1:active {
+	border-color: #ffee58 !important;
+}
+body .yellow-border-darken-1, body .hover\:yellow-border-darken-1:hover, body .focus\:yellow-border-darken-1:focus, body .active\:yellow-border-darken-1:active {
+	border-color: #fdd835 !important;
+}
+body .yellow-border-darken-2, body .hover\:yellow-border-darken-2:hover, body .focus\:yellow-border-darken-2:focus, body .active\:yellow-border-darken-2:active {
+	border-color: #fbc02d !important;
+}
+body .yellow-border-darken-3, body .hover\:yellow-border-darken-3:hover, body .focus\:yellow-border-darken-3:focus, body .active\:yellow-border-darken-3:active {
+	border-color: #f9a825 !important;
+}
+body .yellow-border-darken-4, body .hover\:yellow-border-darken-4:hover, body .focus\:yellow-border-darken-4:focus, body .active\:yellow-border-darken-4:active {
+	border-color: #f57f17 !important;
+}
+body .yellow-border-accent-1, body .hover\:yellow-border-accent-1:hover, body .focus\:yellow-border-accent-1:focus, body .active\:yellow-border-accent-1:active {
+	border-color: #ffff8d !important;
+}
+body .yellow-border-accent-2, body .hover\:yellow-border-accent-2:hover, body .focus\:yellow-border-accent-2:focus, body .active\:yellow-border-accent-2:active {
+	border-color: #ff0 !important;
+}
+body .yellow-border-accent-3, body .hover\:yellow-border-accent-3:hover, body .focus\:yellow-border-accent-3:focus, body .active\:yellow-border-accent-3:active {
+	border-color: #ffea00 !important;
+}
+body .yellow-border-accent-4, body .hover\:yellow-border-accent-4:hover, body .focus\:yellow-border-accent-4:focus, body .active\:yellow-border-accent-4:active {
+	border-color: #ffd600 !important;
+}
+body .amber-border, body .hover\:amber-border:hover, body .focus\:amber-border:focus, body .active\:amber-border:active {
+	border-color: #ffc107 !important;
+}
+body .amber-border-lighten-5, body .hover\:amber-border-lighten-5:hover, body .focus\:amber-border-lighten-5:focus, body .active\:amber-border-lighten-5:active {
+	border-color: #fff8e1 !important;
+}
+body .amber-border-lighten-4, body .hover\:amber-border-lighten-4:hover, body .focus\:amber-border-lighten-4:focus, body .active\:amber-border-lighten-4:active {
+	border-color: #ffecb3 !important;
+}
+body .amber-border-lighten-3, body .hover\:amber-border-lighten-3:hover, body .focus\:amber-border-lighten-3:focus, body .active\:amber-border-lighten-3:active {
+	border-color: #ffe082 !important;
+}
+body .amber-border-lighten-2, body .hover\:amber-border-lighten-2:hover, body .focus\:amber-border-lighten-2:focus, body .active\:amber-border-lighten-2:active {
+	border-color: #ffd54f !important;
+}
+body .amber-border-lighten-1, body .hover\:amber-border-lighten-1:hover, body .focus\:amber-border-lighten-1:focus, body .active\:amber-border-lighten-1:active {
+	border-color: #ffca28 !important;
+}
+body .amber-border-darken-1, body .hover\:amber-border-darken-1:hover, body .focus\:amber-border-darken-1:focus, body .active\:amber-border-darken-1:active {
+	border-color: #ffb300 !important;
+}
+body .amber-border-darken-2, body .hover\:amber-border-darken-2:hover, body .focus\:amber-border-darken-2:focus, body .active\:amber-border-darken-2:active {
+	border-color: #ffa000 !important;
+}
+body .amber-border-darken-3, body .hover\:amber-border-darken-3:hover, body .focus\:amber-border-darken-3:focus, body .active\:amber-border-darken-3:active {
+	border-color: #ff8f00 !important;
+}
+body .amber-border-darken-4, body .hover\:amber-border-darken-4:hover, body .focus\:amber-border-darken-4:focus, body .active\:amber-border-darken-4:active {
+	border-color: #ff6f00 !important;
+}
+body .amber-border-accent-1, body .hover\:amber-border-accent-1:hover, body .focus\:amber-border-accent-1:focus, body .active\:amber-border-accent-1:active {
+	border-color: #ffe57f !important;
+}
+body .amber-border-accent-2, body .hover\:amber-border-accent-2:hover, body .focus\:amber-border-accent-2:focus, body .active\:amber-border-accent-2:active {
+	border-color: #ffd740 !important;
+}
+body .amber-border-accent-3, body .hover\:amber-border-accent-3:hover, body .focus\:amber-border-accent-3:focus, body .active\:amber-border-accent-3:active {
+	border-color: #ffc400 !important;
+}
+body .amber-border-accent-4, body .hover\:amber-border-accent-4:hover, body .focus\:amber-border-accent-4:focus, body .active\:amber-border-accent-4:active {
+	border-color: #ffab00 !important;
+}
+body .orange-border, body .hover\:orange-border:hover, body .focus\:orange-border:focus, body .active\:orange-border:active {
+	border-color: #ff9800 !important;
+}
+body .orange-border-lighten-5, body .hover\:orange-border-lighten-5:hover, body .focus\:orange-border-lighten-5:focus, body .active\:orange-border-lighten-5:active {
+	border-color: #fff3e0 !important;
+}
+body .orange-border-lighten-4, body .hover\:orange-border-lighten-4:hover, body .focus\:orange-border-lighten-4:focus, body .active\:orange-border-lighten-4:active {
+	border-color: #ffe0b2 !important;
+}
+body .orange-border-lighten-3, body .hover\:orange-border-lighten-3:hover, body .focus\:orange-border-lighten-3:focus, body .active\:orange-border-lighten-3:active {
+	border-color: #ffcc80 !important;
+}
+body .orange-border-lighten-2, body .hover\:orange-border-lighten-2:hover, body .focus\:orange-border-lighten-2:focus, body .active\:orange-border-lighten-2:active {
+	border-color: #ffb74d !important;
+}
+body .orange-border-lighten-1, body .hover\:orange-border-lighten-1:hover, body .focus\:orange-border-lighten-1:focus, body .active\:orange-border-lighten-1:active {
+	border-color: #ffa726 !important;
+}
+body .orange-border-darken-1, body .hover\:orange-border-darken-1:hover, body .focus\:orange-border-darken-1:focus, body .active\:orange-border-darken-1:active {
+	border-color: #fb8c00 !important;
+}
+body .orange-border-darken-2, body .hover\:orange-border-darken-2:hover, body .focus\:orange-border-darken-2:focus, body .active\:orange-border-darken-2:active {
+	border-color: #f57c00 !important;
+}
+body .orange-border-darken-3, body .hover\:orange-border-darken-3:hover, body .focus\:orange-border-darken-3:focus, body .active\:orange-border-darken-3:active {
+	border-color: #ef6c00 !important;
+}
+body .orange-border-darken-4, body .hover\:orange-border-darken-4:hover, body .focus\:orange-border-darken-4:focus, body .active\:orange-border-darken-4:active {
+	border-color: #e65100 !important;
+}
+body .orange-border-accent-1, body .hover\:orange-border-accent-1:hover, body .focus\:orange-border-accent-1:focus, body .active\:orange-border-accent-1:active {
+	border-color: #ffd180 !important;
+}
+body .orange-border-accent-2, body .hover\:orange-border-accent-2:hover, body .focus\:orange-border-accent-2:focus, body .active\:orange-border-accent-2:active {
+	border-color: #ffab40 !important;
+}
+body .orange-border-accent-3, body .hover\:orange-border-accent-3:hover, body .focus\:orange-border-accent-3:focus, body .active\:orange-border-accent-3:active {
+	border-color: #ff9100 !important;
+}
+body .orange-border-accent-4, body .hover\:orange-border-accent-4:hover, body .focus\:orange-border-accent-4:focus, body .active\:orange-border-accent-4:active {
+	border-color: #ff6d00 !important;
+}
+body .deep-orange-border, body .hover\:deep-orange-border:hover, body .focus\:deep-orange-border:focus, body .active\:deep-orange-border:active {
+	border-color: #ff5722 !important;
+}
+body .deep-orange-border-lighten-5, body .hover\:deep-orange-border-lighten-5:hover, body .focus\:deep-orange-border-lighten-5:focus, body .active\:deep-orange-border-lighten-5:active {
+	border-color: #fbe9e7 !important;
+}
+body .deep-orange-border-lighten-4, body .hover\:deep-orange-border-lighten-4:hover, body .focus\:deep-orange-border-lighten-4:focus, body .active\:deep-orange-border-lighten-4:active {
+	border-color: #ffccbc !important;
+}
+body .deep-orange-border-lighten-3, body .hover\:deep-orange-border-lighten-3:hover, body .focus\:deep-orange-border-lighten-3:focus, body .active\:deep-orange-border-lighten-3:active {
+	border-color: #ffab91 !important;
+}
+body .deep-orange-border-lighten-2, body .hover\:deep-orange-border-lighten-2:hover, body .focus\:deep-orange-border-lighten-2:focus, body .active\:deep-orange-border-lighten-2:active {
+	border-color: #ff8a65 !important;
+}
+body .deep-orange-border-lighten-1, body .hover\:deep-orange-border-lighten-1:hover, body .focus\:deep-orange-border-lighten-1:focus, body .active\:deep-orange-border-lighten-1:active {
+	border-color: #ff7043 !important;
+}
+body .deep-orange-border-darken-1, body .hover\:deep-orange-border-darken-1:hover, body .focus\:deep-orange-border-darken-1:focus, body .active\:deep-orange-border-darken-1:active {
+	border-color: #f4511e !important;
+}
+body .deep-orange-border-darken-2, body .hover\:deep-orange-border-darken-2:hover, body .focus\:deep-orange-border-darken-2:focus, body .active\:deep-orange-border-darken-2:active {
+	border-color: #e64a19 !important;
+}
+body .deep-orange-border-darken-3, body .hover\:deep-orange-border-darken-3:hover, body .focus\:deep-orange-border-darken-3:focus, body .active\:deep-orange-border-darken-3:active {
+	border-color: #d84315 !important;
+}
+body .deep-orange-border-darken-4, body .hover\:deep-orange-border-darken-4:hover, body .focus\:deep-orange-border-darken-4:focus, body .active\:deep-orange-border-darken-4:active {
+	border-color: #bf360c !important;
+}
+body .deep-orange-border-accent-1, body .hover\:deep-orange-border-accent-1:hover, body .focus\:deep-orange-border-accent-1:focus, body .active\:deep-orange-border-accent-1:active {
+	border-color: #ff9e80 !important;
+}
+body .deep-orange-border-accent-2, body .hover\:deep-orange-border-accent-2:hover, body .focus\:deep-orange-border-accent-2:focus, body .active\:deep-orange-border-accent-2:active {
+	border-color: #ff6e40 !important;
+}
+body .deep-orange-border-accent-3, body .hover\:deep-orange-border-accent-3:hover, body .focus\:deep-orange-border-accent-3:focus, body .active\:deep-orange-border-accent-3:active {
+	border-color: #ff3d00 !important;
+}
+body .deep-orange-border-accent-4, body .hover\:deep-orange-border-accent-4:hover, body .focus\:deep-orange-border-accent-4:focus, body .active\:deep-orange-border-accent-4:active {
+	border-color: #dd2c00 !important;
+}
+body .brown-border, body .hover\:brown-border:hover, body .focus\:brown-border:focus, body .active\:brown-border:active {
+	border-color: #795548 !important;
+}
+body .brown-border-lighten-5, body .hover\:brown-border-lighten-5:hover, body .focus\:brown-border-lighten-5:focus, body .active\:brown-border-lighten-5:active {
+	border-color: #efebe9 !important;
+}
+body .brown-border-lighten-4, body .hover\:brown-border-lighten-4:hover, body .focus\:brown-border-lighten-4:focus, body .active\:brown-border-lighten-4:active {
+	border-color: #d7ccc8 !important;
+}
+body .brown-border-lighten-3, body .hover\:brown-border-lighten-3:hover, body .focus\:brown-border-lighten-3:focus, body .active\:brown-border-lighten-3:active {
+	border-color: #bcaaa4 !important;
+}
+body .brown-border-lighten-2, body .hover\:brown-border-lighten-2:hover, body .focus\:brown-border-lighten-2:focus, body .active\:brown-border-lighten-2:active {
+	border-color: #a1887f !important;
+}
+body .brown-border-lighten-1, body .hover\:brown-border-lighten-1:hover, body .focus\:brown-border-lighten-1:focus, body .active\:brown-border-lighten-1:active {
+	border-color: #8d6e63 !important;
+}
+body .brown-border-darken-1, body .hover\:brown-border-darken-1:hover, body .focus\:brown-border-darken-1:focus, body .active\:brown-border-darken-1:active {
+	border-color: #6d4c41 !important;
+}
+body .brown-border-darken-2, body .hover\:brown-border-darken-2:hover, body .focus\:brown-border-darken-2:focus, body .active\:brown-border-darken-2:active {
+	border-color: #5d4037 !important;
+}
+body .brown-border-darken-3, body .hover\:brown-border-darken-3:hover, body .focus\:brown-border-darken-3:focus, body .active\:brown-border-darken-3:active {
+	border-color: #4e342e !important;
+}
+body .brown-border-darken-4, body .hover\:brown-border-darken-4:hover, body .focus\:brown-border-darken-4:focus, body .active\:brown-border-darken-4:active {
+	border-color: #3e2723 !important;
+}
+body .blue-grey-border, body .hover\:blue-grey-border:hover, body .focus\:blue-grey-border:focus, body .active\:blue-grey-border:active {
+	border-color: #607d8b !important;
+}
+body .blue-grey-border-lighten-5, body .hover\:blue-grey-border-lighten-5:hover, body .focus\:blue-grey-border-lighten-5:focus, body .active\:blue-grey-border-lighten-5:active {
+	border-color: #eceff1 !important;
+}
+body .blue-grey-border-lighten-4, body .hover\:blue-grey-border-lighten-4:hover, body .focus\:blue-grey-border-lighten-4:focus, body .active\:blue-grey-border-lighten-4:active {
+	border-color: #cfd8dc !important;
+}
+body .blue-grey-border-lighten-3, body .hover\:blue-grey-border-lighten-3:hover, body .focus\:blue-grey-border-lighten-3:focus, body .active\:blue-grey-border-lighten-3:active {
+	border-color: #b0bec5 !important;
+}
+body .blue-grey-border-lighten-2, body .hover\:blue-grey-border-lighten-2:hover, body .focus\:blue-grey-border-lighten-2:focus, body .active\:blue-grey-border-lighten-2:active {
+	border-color: #90a4ae !important;
+}
+body .blue-grey-border-lighten-1, body .hover\:blue-grey-border-lighten-1:hover, body .focus\:blue-grey-border-lighten-1:focus, body .active\:blue-grey-border-lighten-1:active {
+	border-color: #78909c !important;
+}
+body .blue-grey-border-darken-1, body .hover\:blue-grey-border-darken-1:hover, body .focus\:blue-grey-border-darken-1:focus, body .active\:blue-grey-border-darken-1:active {
+	border-color: #546e7a !important;
+}
+body .blue-grey-border-darken-2, body .hover\:blue-grey-border-darken-2:hover, body .focus\:blue-grey-border-darken-2:focus, body .active\:blue-grey-border-darken-2:active {
+	border-color: #455a64 !important;
+}
+body .blue-grey-border-darken-3, body .hover\:blue-grey-border-darken-3:hover, body .focus\:blue-grey-border-darken-3:focus, body .active\:blue-grey-border-darken-3:active {
+	border-color: #37474f !important;
+}
+body .blue-grey-border-darken-4, body .hover\:blue-grey-border-darken-4:hover, body .focus\:blue-grey-border-darken-4:focus, body .active\:blue-grey-border-darken-4:active {
+	border-color: #263238 !important;
+}
+body .grey-border, body .hover\:grey-border:hover, body .focus\:grey-border:focus, body .active\:grey-border:active {
+	border-color: #9e9e9e !important;
+}
+body .grey-border-lighten-5, body .hover\:grey-border-lighten-5:hover, body .focus\:grey-border-lighten-5:focus, body .active\:grey-border-lighten-5:active {
+	border-color: #fafafa !important;
+}
+body .grey-border-lighten-4, body .hover\:grey-border-lighten-4:hover, body .focus\:grey-border-lighten-4:focus, body .active\:grey-border-lighten-4:active {
+	border-color: #f5f5f5 !important;
+}
+body .grey-border-lighten-3, body .hover\:grey-border-lighten-3:hover, body .focus\:grey-border-lighten-3:focus, body .active\:grey-border-lighten-3:active {
+	border-color: #eee !important;
+}
+body .grey-border-lighten-2, body .hover\:grey-border-lighten-2:hover, body .focus\:grey-border-lighten-2:focus, body .active\:grey-border-lighten-2:active {
+	border-color: #e0e0e0 !important;
+}
+body .grey-border-lighten-1, body .hover\:grey-border-lighten-1:hover, body .focus\:grey-border-lighten-1:focus, body .active\:grey-border-lighten-1:active {
+	border-color: #bdbdbd !important;
+}
+body .grey-border-darken-1, body .hover\:grey-border-darken-1:hover, body .focus\:grey-border-darken-1:focus, body .active\:grey-border-darken-1:active {
+	border-color: #757575 !important;
+}
+body .grey-border-darken-2, body .hover\:grey-border-darken-2:hover, body .focus\:grey-border-darken-2:focus, body .active\:grey-border-darken-2:active {
+	border-color: #616161 !important;
+}
+body .grey-border-darken-3, body .hover\:grey-border-darken-3:hover, body .focus\:grey-border-darken-3:focus, body .active\:grey-border-darken-3:active {
+	border-color: #424242 !important;
+}
+body .grey-border-darken-4, body .hover\:grey-border-darken-4:hover, body .focus\:grey-border-darken-4:focus, body .active\:grey-border-darken-4:active {
+	border-color: #212121 !important;
+}
+body .black-border, body .hover\:black-border:hover, body .focus\:black-border:focus, body .active\:black-border:active {
+	border-color: #000 !important;
+}
+body .white-border, body .hover\:white-border:hover, body .focus\:white-border:focus, body .active\:white-border:active {
+	border-color: #fff !important;
+}
+body .transparent-border, body .hover\:transparent-border:hover, body .focus\:transparent-border:focus, body .active\:transparent-border:active {
+	border-color: transparent !important;
 }

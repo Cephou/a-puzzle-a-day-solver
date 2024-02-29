@@ -7,6 +7,7 @@ $(document).ready(function() {
 			alreadyUsedPieces: [], // to reset when date is found or program stops
 			hasRemainingPiece: true,
 			pieces: {},
+			validDate: false,
 	  },
 	  methods: {
 	  	initialize: function() {
@@ -21,7 +22,7 @@ $(document).ready(function() {
 	  		];
 
 				this.pieces = {
-					"yellow": {
+					"amber": {
 						1: [
 							[0,0], [1,0],
 							[0,1], [1,1],
@@ -32,7 +33,7 @@ $(document).ready(function() {
 							[0,1], [1,1], [2,1],
 						],
 					},
-					"blue": {
+					"light-blue-lighten-2": {
 						1: [
 							[0,0],
 							[0,1], [1,1],
@@ -43,8 +44,232 @@ $(document).ready(function() {
 							[-1,1], [0,1],
 							[-1,2], [0,2],
 						],
+						3: [
+							[0,0], [1,0],
+							[0,1], [1,1],
+							[0,2],
+						],
+						4: [
+							[0,0], [1,0],
+							[0,1], [1,1],
+										 [1,2],
+						],
+						5: [
+							[0,0], [1,0],
+							[0,1], [1,1], [2,1],
+						],
+						6: [
+										  [0,0], [1,0],
+							[-1,1], [0,1], [1,1],
+						],
+						7: [
+							[0,0], [1,0], [2,0],
+							[0,1], [1,1],
+						],
+						8: [
+							[0,0], [1,0], [2,0],
+										 [1,1], [2,1],
+						],
+					},
+					"red": {
+						1: [
+							[0,0],				[2,0],
+							[0,1], [1,1], [2,1],
+						],
+						2: [
+							[0,0], [1,0],	[2,0],
+							[0,1], 				[2,1],
+						],
+						3: [
+							[0,0], [1,0],
+							[0,1],
+							[0,2], [1,2],
+						],
+						4: [
+							[0,0], [1,0],
+										 [1,1],
+							[0,2], [1,2],
+						],
+					},
+					"purple": {
+						1: [
+							[0,0],
+							[0,1],
+							[0,2], [1,2], [2,2],
+						],
+						2: [
+															[0,0],
+															[0,1],
+							[-2,2], [-1,2], [0,2],
+						],
+						3: [
+							[0,0], [1,0], [2,0],
+														[2,1],
+														[2,2],
+						],
+						4: [
+							[0,0], [1,0], [2,0],
+							[0,1],
+							[0,2],
+						],
+					},
+					"green": {
+						1: [
+							[0,0],
+							[0,1],
+							[0,2],
+							[0,3], [1,3],
+						],
+						2: [
+											[0,0],
+											[0,1],
+											[0,2],
+							[-1,3], [0,3],
+						],
+						3: [
+							[0,0], [1,0],
+							[0,1],
+							[0,2],
+							[0,3],
+						],
+						4: [
+							[-1,0], [0,0],
+											[0,1],
+											[0,2],
+											[0,3],
+						],
+						5: [
+							[0,0], [1,0], [2,0], [3,0],
+																	 [3,1],
+						],
+						6: [
+							[0,0], [1,0], [2,0], [3,0],
+							[0,1],
+						],
+						7: [
+							[0,0],
+							[0,1], [1,1], [2,1], [3,1],
+						],
+						8: [
+																	 [3,-1],
+							[0,0], [1,0], [2,0], [3, 0],
+						],
+					},
+					"yellow": {
+						1: [
+							[0,0],
+							[0,1],
+							[0,2], [1,2],
+							[0,3],
+						],
+						2: [
+							[0,0],
+							[0,1], [1,1],
+							[0,2],
+							[0,3],
+						],
+						3: [
+											[0,0],
+											[0,1],
+							[-1,2],	[0,2],
+											[0,3],
+						],
+						4: [
+											[0,0],
+							[-1,1],	[0,1],
+											[0,2],
+											[0,3],
+						],
+						5: [
+							[0,0], [1,0], [2,0], [3,0],
+														[2,1],
+						],
+						6: [
+							[0,0], [1,0], [2,0], [3,0],
+										 [1,1],
+						],
+						7: [
+														[2,-1],
+							[0,0], [1,0], [2,0 ], [3,0],
+						],
+						8: [
+										 [1,-1],
+							[0,0], [1,0 ], [2,0], [3,0],
+						],
+					},
+					"blue": {
+						1: [
+							[0,0],
+							[0,1], [1,1],
+										 [1,2],
+										 [1,3],
+						],
+						2: [
+										 	[0,0],
+							[-1,1], [0,1],
+							[-1,2],
+							[-1,3],
+						],
+						3: [
+							[0,0],
+							[0,1],
+							[0,2], [1,2],
+										 [1,3],
+						],
+						4: [
+											[0,0],
+										 	[0,1],
+							[-1,2], [0,2],
+							[-1,3],
+						],
+						5: [
+							[0,0], [1,0],
+										 [1,1], [2,1], [3,1],
+						],
+						6: [
+							[0,0], [1,0], [2,0],
+										 				[2,1], [3,1],
+						],
+						7: [
+										 [1,-1], [2,-1], [3,-1],
+							[0,0], [1,0],
+						],
+						8: [
+										 				[2,-1], [3,-1],
+							[0,0], [1,0], [2,0],
+						],
+					},
+					"pink": {
+						1: [
+							[0,0],
+							[0,1], [1,1], [2,1],
+														[2,2],
+						],
+						2: [
+														[2,-1],
+							[0,0], [1,0], [2,0 ],
+							[0,1],
+						],
+						3: [
+										  [0,0], [1,0],
+										  [0,1],
+							[-1,2], [0,2],
+						],
+						4: [
+							[0,0], [1,0],
+										 [1,1],
+										 [1,2], [2,2],
+						],
 					},
 				};
+
+				this.validDate = false;
+
+				this.hasRemainingPiece = true;
+
+				this.alreadyUsedPieces = [];
+
+				this.tetris = [];
 
 	  		$.each(grid, function(index, val) {
 	  			var position = index + 1;
@@ -93,7 +318,7 @@ $(document).ready(function() {
 			},
 
 			setPiece: function(cell, piece) {
-				console.log("setPiece");
+				// console.log("setPiece");
 				for (let i = 0; i < piece.matrix.length; i++) {
 					var matrix = piece.matrix[i];
 					var coord = [(cell.x + matrix[0]), (cell.y + matrix[1])];
@@ -107,6 +332,19 @@ $(document).ready(function() {
 
 				// Update hasRemainingPiece
 				if(this.alreadyUsedPieces.length == Object.keys(this.pieces).length) this.hasRemainingPiece = false;
+			},
+
+			setValidDate: function() {
+				const dateCells = this.tetris.filter(cell => cell.filled === false && cell.value !== "");
+				if(
+					(isNaN(dateCells[0].value) && !isNaN(dateCells[1].value))
+					||
+					(isNaN(dateCells[1].value) && !isNaN(dateCells[0].value))
+				) {
+					this.validDate = true;
+				} else {
+					this.validDate = false;
+				}
 			},
 
 	  	solve: function() {
@@ -123,21 +361,23 @@ $(document).ready(function() {
 									pieceSet = true;
 								} else {
 									failed++;
-									console.log("Failed" + failed);
+									// console.log("Failed" + failed);
 								}
 							}
 						}
 					}.bind(this));
 					superFailed++;
-					console.log(superFailed);
+					// console.log(superFailed);
 				}
+				if(!this.hasRemainingPiece) this.setValidDate();
 	  	},
 
 	  },
 	  mounted: function() {
-	    this.initialize();
-	    // this.annotate();
-	    this.solve();
+			while (this.hasRemainingPiece || !this.validDate) {
+				this.initialize();
+				this.solve();
+			}
 	  },
 	});
 });
