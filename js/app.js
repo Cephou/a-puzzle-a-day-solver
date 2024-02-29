@@ -4,6 +4,9 @@ $(document).ready(function() {
 	  el: '#app',
 	  data: {
 	    tetris: [],
+			alreadyUsedPieces: [], // to reset when date is found or program stops
+			hasRemainingPiece: true,
+			pieces: {},
 	  },
 	  methods: {
 	  	initialize: function() {
@@ -17,33 +20,31 @@ $(document).ready(function() {
 					"29",  "30",  "31",
 	  		];
 
-				var pieces = {
+				this.pieces = {
 					"yellow": {
-						1: {
-							{0,0}, {1,0},
-							{0,1}, {1,1},
-							{0,2}, {1,2},
-						},
-						2: {
-							{0,0}, {1,0}, {2,0},
-							{0,1}, {1,1}, {2,1},
-						},
+						1: [
+							[0,0], [1,0],
+							[0,1], [1,1],
+							[0,2], [1,2],
+						],
+						2: [
+							[0,0], [1,0], [2,0],
+							[0,1], [1,1], [2,1],
+						],
 					},
 					"blue": {
-						1: {
-							{0,0},
-							{0,1}, {1,1},
-							{0,2}, {1,2},
-						},
-						2: {
-										  {0,0},
-							{-1,1}, {0,1},
-							{-1,2}, {0,2},
-						},
+						1: [
+							[0,0],
+							[0,1], [1,1],
+							[0,2], [1,2],
+						],
+						2: [
+										  [0,0],
+							[-1,1], [0,1],
+							[-1,2], [0,2],
+						],
 					},
 				};
-
-				var date = ["20", "Fev"];
 
 	  		$.each(grid, function(index, val) {
 	  			var position = index + 1;
@@ -53,7 +54,7 @@ $(document).ready(function() {
 	  				value: val,
 	  				position: position,
 						filled: (val==""),
-						filled_by: false,
+						filled_by: false, // [yellow, 1]
 						is_date: false,
 	  				x: x,
 	  				y: y,
@@ -62,73 +63,81 @@ $(document).ready(function() {
 
 	  	},
 
-
 	  	isValidProposition: function(cell, piece) {
+				for (let i = 0; i < piece.matrix.length; i++) {
+					var matrix = piece.matrix[i];
+					var coord = [(cell.x + matrix[0]), (cell.y + matrix[1])];
+					var pieceCell = this.tetris.find(obj => obj.x === coord[0] && obj.y === coord[1] && obj.filled === false);
+					if(typeof pieceCell == "undefined") {
+						return false;
+					}
+				}
+				return true;
 	  	},
 
 			getRandomPiece: function() {
+				var freePieces = [];
+				$.each(this.pieces, function(color, piecesConfiguration) {
+					if(!this.alreadyUsedPieces.includes(color)) {
+						freePieces.push(color);
+					}
+				}.bind(this));
+				var randomIndexColor = Math.floor(Math.random() * freePieces.length);
+				var randomColor = freePieces[randomIndexColor];
 
+				var pieceOrientationsIndexes = Object.keys(this.pieces[randomColor]);
+				var randomIndexOrientation = Math.floor(Math.random() * pieceOrientationsIndexes.length);
+				var randomOrientation = pieceOrientationsIndexes[randomIndexOrientation];
+
+				return {"color": randomColor, "orientation": randomOrientation, "matrix": this.pieces[randomColor][randomOrientation], };
 			},
 
-			setPiece: function(cellIndex, piece) {
-				// this.tetris[cellIndex].filled = true;
+			setPiece: function(cell, piece) {
+				console.log("setPiece");
+				for (let i = 0; i < piece.matrix.length; i++) {
+					var matrix = piece.matrix[i];
+					var coord = [(cell.x + matrix[0]), (cell.y + matrix[1])];
+					var cellIndex = this.tetris.findIndex(obj => obj.x === coord[0] && obj.y === coord[1] && obj.filled === false);
+					this.tetris[cellIndex]["filled"] = true;
+					this.tetris[cellIndex]["filled_by"] = [piece.color, piece.orientation];
+				};
 
+				// Add color to alreadyUsedPieces
+				this.alreadyUsedPieces.push(piece.color);
+
+				// Update hasRemainingPiece
+				if(this.alreadyUsedPieces.length == Object.keys(this.pieces).length) this.hasRemainingPiece = false;
 			},
 
 	  	solve: function() {
-				$.each(this.tetris, function(index, cell) {
-	  			if(!this.tetris[index].filled) {
-						$failed = 0;
-						while (!pieceSet && hasRemainingPiece && (failed < 100)) {
-							var pieceSet = false;
-							var piece = getRandomPiece();
-							if(isValidProposition(cell, piece)) {
-								setPiece(cellIndex, piece);
-								pieceSet = true;
-							} else {
-								failed++;
+				superFailed = 0;
+				while (this.hasRemainingPiece && (superFailed < 10)) {
+					$.each(this.tetris, function(index, cell) {
+						if(!this.tetris[index].filled) {
+							failed = 0;
+							while (!pieceSet && this.hasRemainingPiece && (failed < 10)) {
+								var pieceSet = false;
+								var piece = this.getRandomPiece();
+								if(this.isValidProposition(cell, piece)) {
+									this.setPiece(cell, piece);
+									pieceSet = true;
+								} else {
+									failed++;
+									console.log("Failed" + failed);
+								}
 							}
 						}
-		  		}
-	  		}.bind(this));
-	  	},
-
-	  	solveCell: function(cell) {
-	  		var cellSolved = false;
-	  		$.each(cell.propositions, function(index, proposition) {
-	  			var foundCluster = false;
-	  			var foundX = false;
-	  			var foundY = false;
-	  			$.each(this.sudoku, function(notused, sudokuCase) {
-		  			if(sudokuCase.propositions.includes(proposition) && sudokuCase.position != cell.position) {
-		  				if(sudokuCase.cluster == cell.cluster) {
-			  				foundCluster = true;
-			  			}
-			  			if(sudokuCase.x == cell.x) {
-			  				foundX = true;
-			  			}
-			  			if(sudokuCase.y == cell.y) {
-			  				foundY = true;
-			  			}
-			  			if(foundX && foundY && foundCluster) { // Stop iterating the grid for this proposition, it's dead !
-			  				return false;
-			  			}
-		  			}
-	  			}.bind(this));
-	  			if(!foundCluster || !foundX || !foundX) { // Unique dans son cluster ou dans la ligne ou dans sa colonne
-  					cell.value = proposition;
-  					cellSolved = true;
-  					return false;
-  				}
-	  		}.bind(this));
-				return cellSolved;
+					}.bind(this));
+					superFailed++;
+					console.log(superFailed);
+				}
 	  	},
 
 	  },
 	  mounted: function() {
 	    this.initialize();
 	    // this.annotate();
-	    // this.solve();
+	    this.solve();
 	  },
 	});
 });
