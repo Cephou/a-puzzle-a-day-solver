@@ -18,6 +18,7 @@
     <div class="sudoku">
       <div v-for="cell in tetris" class="case"><!--  :class="'cluster-' + cell.cluster" -->
         <div class="case-value" :class="((cell.value == '') ? 'case-empty' : '') + ' ' + cell.filled_by[0]">{{ cell.value }}</div>
+      </div>
     </div>
   </div>
 </body>
