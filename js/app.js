@@ -342,9 +342,25 @@ $(document).ready(function() {
 					(isNaN(dateCells[1].value) && !isNaN(dateCells[0].value))
 				) {
 					this.validDate = true;
+					this.writeJSONToFile();
 				} else {
 					this.validDate = false;
 				}
+			},
+
+			writeJSONToFile: function() {
+				const jsonData = JSON.stringify(this.tetris);
+				$.ajax({
+					type: 'POST',
+					url: 'save_data.php',
+					data: { json: jsonData },
+					success: function(response) {
+						console.log('Data saved successfully.');
+					},
+					error: function(xhr, status, error) {
+						console.error('Error saving data:', error);
+					}
+				});
 			},
 
 	  	solve: function() {
