@@ -8,6 +8,7 @@ $(document).ready(function() {
 			hasRemainingPiece: true,
 			pieces: {},
 			validDate: false,
+			dateInput: '', // Initializing data property for input value
 	  },
 	  methods: {
 	  	initialize: function() {
@@ -349,13 +350,20 @@ $(document).ready(function() {
 			},
 
 			writeJSONToFile: function() {
+				var date = "";
+				$.each(this.tetris, function(index, cell) {
+					if(!this.tetris[index].filled) {
+						date += this.tetris[index].value;
+					}
+				}.bind(this));
 				const jsonData = JSON.stringify(this.tetris);
 				$.ajax({
 					type: 'POST',
 					url: 'save_data.php',
-					data: { json: jsonData },
+					data: { json: jsonData, date: date, },
 					success: function(response) {
 						console.log('Data saved successfully.');
+						window.location.reload();
 					},
 					error: function(xhr, status, error) {
 						console.error('Error saving data:', error);
@@ -387,6 +395,24 @@ $(document).ready(function() {
 				}
 				if(!this.hasRemainingPiece) this.setValidDate();
 	  	},
+
+			loadDate: function(_dateInput) {
+				var _this = this; // Storing reference to Vue instance
+				$.ajax({
+					type: 'POST',
+					url: 'get_data.php',
+					data: { date: _dateInput, },
+					success: function(response) {
+						if(response != "ko") {
+							let decoded_res = JSON.parse(JSON.parse(response));
+							_this.tetris = decoded_res;
+						}
+					},
+					error: function(xhr, status, error) {
+						console.error('Error saving data:', error);
+					}
+				});
+			},
 
 	  },
 	  mounted: function() {

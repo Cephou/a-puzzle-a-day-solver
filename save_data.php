@@ -1,18 +1,24 @@
 <?php
+// Check if JSON data is posted
+if(isset($_POST['json'])) {
+  // Read the existing JSON file
+  $jsonFile = 'data.json';
+  $jsonData = file_get_contents($jsonFile);
 
-// Retrieve JSON data from POST request
-$jsonData = $_POST['json'];
+  // Decode JSON data into PHP array
+  $dataArray = json_decode($jsonData, true);
 
-// Define the file path
-$filePath = 'data.json';
+  // Add $_POST['json'] to a new array cell
+  $dataArray[$_POST['date']] = $_POST['json'];
 
-// Write JSON data to file
-$file = fopen($filePath, 'w');
-if ($file) {
-  fwrite($file, $jsonData);
-  fclose($file);
-  echo 'Data saved successfully.';
+  // Encode the updated array back to JSON
+  $newJsonData = json_encode($dataArray);
+
+  // Save the updated JSON data back to the file
+  file_put_contents($jsonFile, $newJsonData);
+
+  echo 'Data has been added successfully.';
 } else {
-  echo 'Error saving data.';
+  echo 'No JSON data posted.';
 }
 ?>

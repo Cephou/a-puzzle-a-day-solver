@@ -20,6 +20,7 @@
         <div class="case-value" :class="((cell.value == '') ? 'case-empty' : '') + ' ' + cell.filled_by[0]">{{ cell.value }}</div>
       </div>
     </div>
+    <input name="find_date" v-model="dateInput"/><button v-on:click="loadDate(dateInput)">Find date</button>
   </div>
 </body>
 </html>
